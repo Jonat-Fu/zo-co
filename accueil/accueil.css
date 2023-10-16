@@ -1,0 +1,649 @@
+/**** Calcule sur une base de 360px ****/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.acceuil_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/******** SECTION MASSAGE ********/
+
+.massage {
+    width: 82vw;
+    height: 173vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 30vw 0 15vw 0
+}
+
+.titre_massage{
+    width: 82vw;
+    height: 30.6vw;
+    margin-bottom: -11.7vw;
+    z-index: 1;
+}
+
+.titre_massage p {
+    font-size: 11.1vw;
+    color: #D39D48;
+    font-family: sans-serif;
+}
+
+@keyframes scroll_massage_p {
+    0% {
+        transform: translateX(-101vw);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.titre_massage h1 {
+    font-size: 15.3vw;
+    font-weight: 400;
+    color: #D39D48;
+    font-family: sans-serif;
+}
+
+@keyframes scroll_massage_h1 {
+    0% {
+        transform: translateX(101vw);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.img_massage {
+    width: 58.3vw;
+    height: 42.5vw;
+}
+
+.text_massage_mob {
+    width: 58.3vw;
+    height: 73vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    margin-top: -2.8vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text_massage_desk { /* text massage desktop */
+    display: none
+}
+
+.button_massage {
+    width: 45.8vw;
+    height: 6.4vw;
+    border: 0vw;
+    background-color: #034B3E;
+    border-radius: 13.9vw;
+    font-size: 2.6vw;
+    font-family: sans-serif;
+    color: #D39D48;
+    margin-left: 13.9vw;
+}
+
+/********* SECTION RENATA ********/
+
+.renata { /* section drainage */
+    position: relative;
+    width: 100vw;
+    height: 115.5vw;
+    margin: 10vw 0 15vw 0
+}
+
+.background_renata { /* div background drainage */
+    width: 100vw;
+    height: 65.3vw;
+    background-image: linear-gradient(to right,#034B3E 96vw,#FFFFFF 96vw );
+}
+
+.grid_renata { /* contenu drainage */
+    position: absolute;
+    top: 0px;
+    width: 97.2vw;
+    height: 149.1vw;
+    display: grid;
+    grid-template-columns: 1.5fr 2.2fr;/* 40.3vw 1fr */
+    grid-template-rows: 26.4vw 26.4vw 78vw 18.3vw;  
+}
+
+.img_renata {
+    width: 34.7vw;
+    height: 65.8vw;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    margin: -5.5vw auto 0 2.8vw;
+}
+
+@keyframes scroll_renata_img {
+    0% {
+        transform: translateX(-101vw);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.titre_renata_premier {
+    font-size: 5.5vw;
+    font-family: sans-serif;
+    color: #D39D48;
+    font-weight: 400;
+    width: 44.4vw;
+    height: 13.9vw;
+    text-align: center;
+    grid-row-start: 1;
+    grid-column-start: 2;
+    margin: auto
+}
+
+.titre_renata_deuxieme {
+    font-size: 8.3vw;
+    font-family: sans-serif;
+    color: #D39D48;
+    font-weight: 400;
+    width: 50vw;
+    height: 20.8vw;
+    display: flex;
+    flex-direction: column;
+    grid-row-start: 2;
+    grid-column-start: 2;
+}
+
+.span_franca { /* h2 deuxieme titre */
+    align-self: flex-end;
+}
+
+.text_renata_desk {
+    display: none
+}
+
+.text_renata_mob {
+    width: 87.5vw;
+    height: 62vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    align-self: end;
+    margin-left: 5.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.lien_button_renata {
+    grid-row-start: 4;
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    align-self: center;
+    margin-left: 5.5vw
+}
+
+.button_renata {
+    width: 45.8vw;
+    height: 6.4vw;
+    border: 0vw;
+    background-color: #034B3E;
+    border-radius: 13.9vw;
+    font-size: 2.6vw;
+    font-family: sans-serif;
+    color: #D39D48;
+}
+
+/******* SECTION DEEP TISSU *******/
+
+.deep {
+    width: 94vw;
+    height: 135vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 40vw 0 10vw 0
+}
+
+.background_deep {
+    width: 88.1vw;
+    height: 58.7vw;
+    background-color: #034B3E;
+    align-self: flex-end;
+    position: relative;
+}
+
+.titre_deep_verticale {
+    width: 11.1vw;
+    height : 96vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: flex-start;
+    z-index: 1;
+    position: absolute;
+    bottom: -17vw
+}
+
+@keyframes scroll_deep_titre {
+    0% {
+        transform: translateY(101vh);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.titre_deep {
+    width: 11.1vw;
+    height: 48vw;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-size: 8.3vw;
+    font-family: sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.3vw;
+    color: #D39D48;
+}
+
+.img_deep {
+    width: 88.1vw;
+    height: auto;
+    position: absolute;
+    right: 6.4vw;
+    bottom: 4.2vw;
+}
+
+@keyframes scroll_deep_img {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.text_deep_desk {
+    display: none
+}
+
+.text_deep_mob {
+    width: 72.2vw;
+    height: 56vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    justify-content: space-between;
+}
+
+.button_deep {
+    width: 45.8vw;
+    height: 6.4vw;
+    border: 0vw;
+    background-color: #034B3E;
+    border-radius: 13.9vw;
+    font-size: 2.6vw;
+    font-family: sans-serif;
+    color: #D39D48;
+    align-self: center;
+    margin-left: 12vw
+}
+
+/****** SECTION ZO-CO C'EST AUSSI ******/
+
+.aussi {
+    width: 100vw;
+    height: 350vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    margin: 0 0 15vw 0
+}
+
+.titre_aussi {
+    width: 92vw;
+    height: 30.8vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.span_zoco {
+    font-family: sans-serif;
+    color: #D39D48;
+    font-weight: 400;
+    font-size: 14.7vw;
+}
+
+@keyframes scroll_span_zoco {
+    0% {
+        transform: translateX(101vw);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.span_aussi {
+    font-family: sans-serif;
+    color: #D39D48;
+    font-weight: 400;
+    font-size: 11.9vw;
+    align-self: flex-end;
+}
+
+@keyframes scroll_span_aussi {
+    0% {
+        transform: translateX(101vw);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+/****** Formation ******/
+
+.formation {
+    width: 89.2vw;
+    height:82.9vw;
+    display:grid;
+    grid-template-columns: 6fr 2fr;
+    grid-template-rows: 10vw 32.5vw 33vw 4.5vw;
+}
+
+.formation h2 {
+    font-family: sans-serif;
+    color: #D39D48;
+    font-weight: 400;
+    font-size: 6.4vw;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    align-self: center;
+}
+
+.img_formation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.img_formationA {
+    width: 64.4vw;
+    height: 32.5vw;
+    object-fit: cover;
+    align-self: center;
+}
+
+@keyframes scroll_img_formation_a {
+    0% {
+        transform: translateX(-101vw);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.img_formationB {
+    width: 22.8vw;
+    height: 53vw;
+    object-fit: cover;
+    grid-row-start: 1;
+    grid-row-end: span 3;
+    grid-column-start: 2;
+    margin-top: 3vw
+}
+
+@keyframes scroll_img_formation_b {
+    0% {
+        transform: translateY(101vw);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.text_formation_desk {
+    display: none
+}
+
+.text_formation_mob {
+    width: 63.6vw;
+    height: 29vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    color: #D39D48;
+    grid-row-start: 3;
+    grid-column-start: 1;
+    align-self: center;
+}
+
+.savoir_formation {
+    width: 30vw;
+    height: 4.2vw;
+    font-size: 2.8vw;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: #FFFFFF;
+    text-decoration: none;
+    grid-row-start: 4;
+    grid-column-start: 1;
+    align-self: end;
+}
+
+/****** Entreprise *****/
+
+.entreprise {
+    width: 89.2vw;
+    height: 85vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.entreprise h2 {
+    width: 53vw;
+    font-family: sans-serif;
+    color: #D39D48;
+    font-weight: 400;
+    font-size: 6.4vw;
+}
+
+.img_entreprise {
+    width: 85vw;
+    height: 30.8vw;
+    object-fit: cover;
+}
+
+@keyframes scroll_img_massage_entreprise {
+    0% {
+        transform: translateX(101vw);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.text_entreprise {
+    width: 85vw;
+    height: 23vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    color: #D39D48;
+}
+
+.savoir_entreprise {
+    width: 30vw;
+    height: 4.2vw;
+    font-size: 2.8vw;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/****** Sophrologie ****/
+
+.sophrologie {
+    width: 89.2vw;
+    height: 93vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.sophrologie h2 {
+    width: 47.5vw;
+    font-family: sans-serif;
+    color: #D39D48;
+    font-weight: 400;
+    font-size: 6.4vw;
+}
+
+.img_sophrologie {
+    width: 81.9vw;
+    height: 42.5vw;
+    object-fit: cover;
+}
+
+@keyframes scroll_img_sophrologie {
+    0% {
+        transform: translateX(101vw);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.text_sophrologie {
+    width: 75.8vw;
+    height: 23vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    color: black;
+}
+
+.savoir_sophrologie {
+    width: 30vw;
+    height: 4.2vw;
+    font-size: 2.8vw;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: #034B3E;
+    text-decoration: none;
+}
+
+.background_aussi {
+    width: 100vw;
+    height: 272vw;
+    background-image: linear-gradient(to right,#034B3E 98vw,#FFFFFF 98vw );
+    position: absolute;
+    bottom: 50vw;
+    z-index: -1;
+}
+
+/*** ligne decorative du background aussi ***/
+
+.ligne_aussi_a {
+    display: none
+}
+
+.ligne_aussi_b {
+    display: none
+}
+
+.ligne_aussi_c {
+    display: none
+}
+
+.ligne_aussi_d {
+    display: none
+}
+
+/*******************************************/
+
+/***** SLIDE CONFIANCE *****/
+
+.lien_titre_confiance{
+    text-decoration: none;
+    color:#D39D48
+}
+
+.titre_confiance {
+    width: 72.2vw;
+    font-size: 6.9vw;
+    font-family: sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 0 15vw 0
+}
+
+.carousel_confiance {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden; /* hidden pour rendre invisible le debordement */
+    scroll-behavior: smooth; /*fluiditer du defilement lors du scroll */
+    width: 84.7vw;
+    margin: 0 0 30vw 0;
+}
+
+.slide_confiance {
+    display: flex;
+    align-items: center;
+    animation: confiance 20s infinite linear
+}
+
+.slide_confiance:hover {
+    animation-play-state: paused;
+}
+
+@keyframes confiance {
+    0% {
+        transform: translateX(0);
+    }
+    
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.slide_confiance a {
+    width: 42.35vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ikea {
+    display: none
+}
+
+.img_confiance {
+    max-width: 27.8vw;
+    max-height: 13.9vw;
+}
+
+.img_confiance:hover {
+    transform:scale(1.1); /* effet de zoom */
+    transition: all 0.3s ease;
+}

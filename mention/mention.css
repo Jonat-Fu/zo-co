@@ -1,0 +1,36 @@
+/**** Calcule sur une base de 360px ****/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.mention_main {
+    width: 80vw;
+    font-size: 4.2vw;
+    font-family: sans-serif;
+    line-height: 1.4;
+    margin: 0 auto;
+    padding: 30vw 0
+}
+
+.mention_main h1{
+    font-size: 11.1vw;
+    font-family: sans-serif;
+    padding: 0 0 8.3vw 0
+}
+
+.mention_main h2 {
+    font-size: 8.3vw;
+    font-family: sans-serif;;
+    padding: 4.2vw 0
+}
+
+.mention_main ul {
+    padding: 4.2vw 0 0 10vw
+}
+
+.mention_main p {
+    padding: 4.2vw 0
+}

@@ -1,0 +1,31 @@
+/**** Calcule sur une base de 1440px ****/
+
+@media (orientation: landscape) {
+
+    .mention_main {
+        width: 80vw;
+        font-size: 1.4vw;
+        line-height: 1.4;
+        margin: 3.5vw auto;
+        padding: 1vw 0
+    }
+    
+    .mention_main h1{
+        font-size: 3.5vw;
+        padding: 0 0 2.1vw 0
+    }
+    
+    .mention_main h2 {
+        font-size: 2.8vw;
+        padding: 1vw 0
+    }
+
+    .mention_main ul {
+        padding: 1vw 0 0 80px
+    }
+
+    .mention_main p {
+        padding: 1vw 0
+    }
+
+}

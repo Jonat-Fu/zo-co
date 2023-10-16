@@ -1,0 +1,200 @@
+/**** Calcule sur une base de 360px ****/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.contact_main {
+    width: 100vw;
+    height: 240vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/contact/page_contact_photo_cedric_ferru.jpg); /* trick pour assombrir l'image */
+    background-size: cover;
+    background-position: center;
+}
+
+/******** SECTION CONTACT ********/
+
+.page_contact {
+    width: 88.9vw;
+    height: 155vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(3,75,62,0.25);
+    border-radius: 3vw;
+    margin-top: 30vw;
+}
+
+.page_contact h2 {
+    font-size: 6.9vw;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.div_num_contact {
+    width: 30.5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon_num_contact {
+    width: 3.5vw;
+    height: 3.5vw
+}
+
+.num_contact {
+    font-size: 3.8vw;
+    font-family: sans-serif;
+    color: #FFFFFF;
+}
+
+.form_contact{
+    width: 70vw;
+    height: 70vw;
+    display: flex;
+    flex-direction: column;
+    gap: 6.4vw;
+    align-items: center;
+    position: relative /* error_email */
+}
+
+.form_contact input {
+    width: 70vw;
+    height: 7vw;
+    font-size: 3.8vw;
+    font-family: sans-serif;
+    padding-left : 1.2vw;
+    border-radius: 2vw;
+    border-style: none;
+    background-color: #FFFFFF;
+}
+
+#error_nom { /* message d'erreur validité nom */
+    position: absolute;
+    top: 8.3vw;
+    left: 0vw;
+    font-size: 3vw;
+    font-family: sans-serif;
+    color:red
+}
+
+#error_prenom { /* message d'erreur validité prenom */
+    position: absolute;
+    top: 21.5vw;
+    left: 0vw;
+    font-size: 3vw;
+    font-family: sans-serif;
+    color:red
+}
+
+#error_email { /* message d'erreur validité email */
+    position: absolute;
+    top: 34.2vw;
+    left: 0vw;
+    font-size: 3vw;
+    font-family: sans-serif;
+    color:red
+}
+
+#error_message { /* message d'erreur validité message */
+    position: absolute;
+    top: 60vw;
+    left: 0vw;
+    font-size: 3vw;
+    font-family: sans-serif;
+    color:red
+}
+
+.form_contact textarea {
+    max-width: 70vw;
+    min-width: 70vw;
+    min-height: 19.4vw;
+    max-height: auto;
+    overflow: auto; /* barre de defilement à l'interieur */
+    resize: none; /* ne pemet pas le redimensionnement */
+    font-size: 3.8vw;
+    font-family: sans-serif;
+    padding : 0.8vw 1.2vw 0 1.2vw;
+    border-radius: 2vw;
+    border-style: none;
+    background-color: #FFFFFF;
+}
+
+.form_contact button {
+    width: 31.1vw;
+    height: 5vw;
+    font-size: 3vw;
+    font-family: sans-serif;
+    border-radius: 2vw;
+    border-style: none;
+    background-color: #FFFFFF;
+}
+
+.condition_contact {
+    width: 76.1vw;
+    height: 18.9vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative /* message d'erreur condition */
+}
+
+#error_checkbox { /* message d'erreur condition */
+    position: absolute;
+    bottom: 3.5vw;
+    left: 3.9vw;
+    font-size: 3vw;
+    font-family: sans-serif;
+    color:red
+}
+
+.condition_contact input {
+    width: 2.8vw;
+    height: 2.8vw;
+    align-self: flex-start;
+}
+
+.condition_contact p {
+    width: 72.2vw;
+    height: 18.9vw;
+    font-size: 3vw;
+    font-family: sans-serif;
+    color: #FFFFFF;
+}
+
+/******* SECTION PLAN ********/
+
+.plan_contact {
+    width: 88.9vw;
+    height: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(3,75,62,0.20);
+    border-radius: 3vw;
+    margin-bottom: 5vw;
+}
+
+.plan_contact h2 {
+    font-size: 6.9vw;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.plan_contact iframe {
+    width: 68vw;
+    height: 41.7vw
+}

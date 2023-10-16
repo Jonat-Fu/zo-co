@@ -1,0 +1,181 @@
+/**** Calcule sur une base de 1440px ****/
+
+@media (orientation: landscape) {
+
+/********* ARTICLE DEEP TISSUE **********/
+
+.article_deep {
+    gap: 5.5vw;
+    padding: 6.9vw 0 10.4vw 0
+}
+
+.titre_article_deep {
+    width: 72.5vw;
+    height: 5.5vw;
+}
+
+.titre_article_deep h1 {
+    font-size: 4.9vw;
+}
+
+/********* PARTIE 1 **********/
+
+.partie1_deep {
+    width: 74.3vw;
+    height: 49.6vw;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 22.6vw 27.1vw;
+    gap: 0
+}
+
+.img1_deep {
+    width: auto;
+    height: 34.7vw;
+    box-shadow: 2.1vw 1.4vw 0 #034B3E;
+    grid-row-start: 1;
+    grid-row-end: span2;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    align-self: start;
+}
+
+.quoi_deep {
+    width:45.1vw;
+    height: 17.4vw;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    margin: auto
+}
+
+.quoi_deep h3 {
+    font-size: 1.4vw;
+    line-height: 1.4;
+}
+
+.quoi_deep p {
+    font-size: 1.4vw;
+    line-height: 1.4;
+}
+
+
+/********* PARTIE 2 **********/
+
+.partie2_deep {
+    width: 45.1vw;
+    height: 26.4vw;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    margin: auto
+}
+
+.partie2_deep h3 {
+    width: 43.3vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    align-self: flex-start;
+}
+
+.partie2_deep ul {
+    width: 45.1vw;
+    height: 24.3vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    margin-left: 2.4vw;
+}
+
+/********* PARTIE 3 **********/
+
+.partie3_deep {
+    width: 73.6vw;
+    height: 34.2vw;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3.5vw;
+    position: relative
+}
+
+.img2_deep {
+    width: auto;
+    height: 34.7vw;
+    position: absolute;
+    top: -2.8vw;
+    left: 52.1vw;
+}
+
+.technique_deep {
+    width: 46.5vw;
+    height: 17.4vw;
+    position: absolute;
+    bottom: 8vw;
+    left: 3.5vw
+}
+
+.technique_deep h3 {
+    font-size: 1.4vw;
+    align-self: flex-start;
+    line-height: 1.4;
+}
+
+.technique_deep ul {
+    height: 22.2vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    margin-left: 2.4vw;
+}
+
+
+/********* PARTIE 4 **********/
+
+.partie4_deep {
+    width: 72.9vw;
+    height: 12.5vw;
+}
+
+.partie4_deep h3 {
+    font-size: 1.4vw;
+    line-height: 1.4;
+}
+
+.partie4_deep p {
+    font-size: 1.4vw;
+    line-height: 1.4;
+}
+
+/********* PARTIE 5 **********/
+
+.partie5_deep {
+    width: 72.9vw;
+    height: 13.9vw;
+}
+
+.partie5_deep h3 {
+    width: 67.4vw;
+    font-size: 1.4vw;
+    align-self: flex-start;
+    line-height: 1.4;
+}
+
+.partie5_deep ul {
+    width: 68.75vw;
+    height: 12.5vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    margin-left: 2.4vw;
+}
+
+/********** BOUTON TARIF *********/
+
+.button_tarif {
+    width: 17.2vw;
+    height: 2.4vw;
+    border: 0vw;
+    border-radius: 3.5vw;
+    font-size: 1vw;
+}
+
+}

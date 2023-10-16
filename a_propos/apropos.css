@@ -1,0 +1,261 @@
+/**** Calcule sur une base de 360px ****/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.a_propos_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/******** ARTICLE A PROPOS *******/
+
+.article_a_propos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11.1vw;
+    padding: 30vw 0 15vw 0
+}
+
+.titre_article_a_propos {
+    width: 80vw;
+    height: 11.7vw;
+    text-align: center;
+}
+
+.titre_article_a_propos h1 {
+    font-size: 8.9vw;
+    font-weight: 400;
+    color: #D39D48;
+    font-family: sans-serif;
+}
+
+/******** PARTIE 1 *********/
+
+.partie1_a_propos {
+    width: 90vw;
+    height: 245vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img1_a_propos {
+    width: 78.3vw;
+    height: auto;
+}
+
+.presentation_a_propos {
+    width:83.3vw;
+    height: 160vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.presentation_a_propos p {
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+}
+
+/********* PARTIE 2 *********/
+
+.partie2_a_propos {
+    background-color: #034B3E;
+    width: 85vw;
+    height: 180vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8.3vw;
+    position: relative
+}
+
+.img2_a_propos {
+    width: 74.7vw;
+    height: auto;
+    position: absolute;
+    top: -8.3vw;
+    left: 13vw
+}
+
+.prestation_a_propos {
+    width: 70vw;
+    height: 125vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 10.2vw
+}
+
+.prestation_a_propos p {
+    height: 110vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 6vw;
+}
+
+/******* PARTIE 3 *******/
+
+.partie3_a_propos {
+    width: 90vw;
+    height: 200vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img3_a_propos {
+    width: 78.3vw;
+    height: auto;
+}
+
+.atelier_a_propos {
+    width:83.3vw;
+    height: 135vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.atelier_a_propos p {
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+}
+
+/******* PARTIE 4 *******/
+
+.partie4_a_propos {
+    background-color: #034B3E;
+    width: 85vw;
+    height: 250vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 18vw;
+    position: relative
+}
+
+.img4_a_propos{
+    width: 56.9vw;
+    height: auto;
+    position: absolute;
+    top: -17vw;
+    left: 4vw
+}
+
+.valeur_a_propos {
+    width: 70vw;
+    height: 170vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 10.2vw
+}
+
+.valeur_a_propos p {
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    align-self: flex-start;
+}
+
+.valeur_a_propos ul {
+    height: 110vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 6vw;
+}
+
+/******** CREDIT CONFIANCE ********/
+
+.credit_confiance {
+    width: 80vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 1.4;
+    padding-bottom: 15vw; 
+    gap: 1.5vw;
+}
+
+.titre_credit_confiance {
+    font-size: 5.2vw;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: #D39D48;
+}
+
+.credit_confiance a {
+    text-decoration: none;
+    color: black;
+}
+
+.credit_confiance p {
+    font-size: 3.6vw;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+/******** CREDIT PHOTO ********/
+
+.credit_photo {
+    width: 80vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.4;
+    padding-bottom: 30vw; 
+    gap: 1vw;
+}
+
+.titre_credit_photo {
+    font-size: 5.2vw;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: #D39D48;
+    align-self: flex-start;
+}
+
+.credit_photo a {
+    text-decoration: none;
+    color: black;
+}
+
+.credit_photo p {
+    font-size: 3.6vw;
+    font-family: sans-serif;
+    font-weight: 700;
+    align-self: flex-start;
+}
+
+.credit_photo li {
+    width: 80vw;
+    font-size: 3.2vw;
+    font-family: sans-serif;
+    list-style: none;
+}

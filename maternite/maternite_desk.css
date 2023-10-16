@@ -1,0 +1,405 @@
+/**** Calcule sur une base de 1440px ****/
+
+@media (orientation: landscape) {
+
+.titre_maternite_main h1 {
+    font-size: 4.9vw;
+    font-weight: 400;
+    color: #D39D48;
+    font-family: sans-serif;
+    padding-top: 6.9vw;
+}
+
+.raccourci_maternite_main {
+    width: 83.3vw;
+    height: 13.9vw;
+    font-size: 2.1vw;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/********* ARTICLE FEMME ENCEINTE **********/
+
+.article_femme_enceinte {
+    gap: 4.2vw;
+    padding: 6.9vw 0 10.4vw 0
+}
+
+/********* PARTIE 1 **********/
+
+.partie1_femme_enceinte {
+    width: 83.3vw;
+    height: 35.5vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10.5vw 25vw;
+    gap: 0
+}
+
+.titre_article_femme_enceinte {
+    width: 37.8vw;
+    height: 11.1vw;
+    text-align: start;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    margin: auto
+}
+
+.titre_article_femme_enceinte h2:nth-child(1) {
+    font-size: 4.9vw;
+}
+
+.titre_article_femme_enceinte h2:nth-child(2) {
+    font-size: 4.2vw;
+}
+
+.img1_femme_enceinte {
+    width: 39.2vw;
+    height: auto;
+    box-shadow: 2.1vw 1.4vw 0 #034B3E;
+    grid-row-start: 1;
+    grid-row-end: span2;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    align-self: start;
+}
+
+.quoi_femme_enceinte {
+    width: 38.9vw;
+    height: 23.6vw;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    align-self: end;
+    margin: 0 auto
+}
+
+.quoi_femme_enceinte h3 {
+    font-size: 1.4vw;
+    line-height: 1.4;
+}
+
+.quoi_femme_enceinte p {
+    font-size: 1.4vw;
+    line-height: 1.4;
+}
+
+
+/********* PARTIE 2 **********/
+
+.partie2_femme_enceinte {
+    width: 79.9vw;
+    height: 23.6vw;
+}
+
+.partie2_femme_enceinte h3 {
+    width: 43.3vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    align-self: flex-start;
+}
+
+.partie2_femme_enceinte ul {
+    width: 78.1vw;
+    height: 21.9vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    margin-left: 2.4vw;
+}
+
+/********* PARTIE 3 **********/
+
+.partie3_femme_enceinte {
+    width: 73.6vw;
+    height: 34.2vw;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3.5vw;
+    position: relative
+}
+
+.img2_femme_enceinte {
+    width: 23.1vw;
+    height: 34.7vw;
+    object-fit: cover;
+    position: absolute;
+    top: -2.8vw;
+    left: 52.1vw;
+}
+
+.technique_femme_enceinte {
+    width: 46.5vw;
+    height: 17.4vw;
+    position: absolute;
+    bottom: 8vw;
+    left: 3.5vw
+}
+
+.technique_femme_enceinte h3 {
+    line-height: 1.4;
+    font-size: 1.4vw;
+    align-self: flex-start;
+}
+
+.technique_femme_enceinte ul {
+    height: 22.2vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    margin-left: 2.4vw;
+}
+
+
+/********* PARTIE 4 **********/
+
+.partie4_femme_enceinte {
+    width: 72.9vw;
+    height: 12.5vw;
+}
+
+.partie4_femme_enceinte h3 {
+    font-size: 1.4vw;
+    line-height: 1.4;
+}
+
+.partie4_femme_enceinte p {
+    font-size: 1.4vw;
+    line-height: 1.4;
+}
+
+/********* PARTIE 5 **********/
+
+.partie5_femme_enceinte {
+    width: 72.9vw;
+    height: 13.9vw;
+}
+
+.partie5_femme_enceinte h3 {
+    width: 67.4vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    align-self: flex-start;
+}
+
+.partie5_femme_enceinte ul {
+    width: 68.75vw;
+    height: 12.5vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    margin-left: 2.4vw;
+}
+
+/********** BOUTON TARIF *********/
+
+.button_tarif {
+    width: 17.2vw;
+    height: 2.4vw;
+    border: 0vw;
+    border-radius: 3.5vw;
+    font-size: 1vw;
+}
+
+/*-----------------------------------------------------------------------------------*/
+
+.hr_maternite {
+    width: 80.5vw;
+    height: 0.07vw;
+    border: solid 0.07vw #034B3E;
+    color: #034B3E
+}
+
+/*-----------------------------------------------------------------------------------*/
+
+/********* ARTICLE BEBE **********/
+
+.article_bebe {
+    gap: 4.2vw;
+    padding: 6.9vw 0 10.4vw 0
+}
+
+/********* PARTIE 1 **********/
+
+.partie1_bebe {
+    width: 83.3vw;
+    height: 35.5vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10.5vw 25vw;
+    gap: 0
+}
+
+.titre_article_bebe {
+    width: 33vw;
+    height: 11.1vw;
+    text-align: start;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.titre_article_bebe h2:nth-child(1) {
+    font-size: 4.9vw;
+    align-self: flex-start;
+}
+
+.titre_article_bebe h2:nth-child(2) {
+    font-size: 4.5vw;
+    align-self: flex-end;
+}
+
+.img1_bebe {
+    width: 39.2vw;
+    height: auto;
+    box-shadow: 2.1vw 1.4vw 0 #034B3E;
+    grid-row-start: 1;
+    grid-row-end: span2;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    align-self: start;
+}
+
+.quoi_bebe {
+    width: 38.9vw;
+    height: 23.6vw;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    align-self: end;
+    margin: 0 auto
+}
+
+.quoi_bebe h3 {
+    font-size: 1.4vw;
+    line-height: 1.4;
+}
+
+.quoi_bebe p {
+    font-size: 1.4vw;
+    line-height: 1.4;
+}
+
+
+/********* PARTIE 2 **********/
+
+.partie2_bebe {
+    width: 79.9vw;
+    height: 18vw;
+}
+
+.partie2_bebe h3 {
+    width: 43.3vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    align-self: flex-start;
+}
+
+.partie2_bebe ul {
+    width: 78.1vw;
+    height: 21.9vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    margin-left: 2.4vw;
+}
+
+/********* PARTIE 3 **********/
+
+.partie3_bebe {
+    width: 73.6vw;
+    height: 34.2vw;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3.5vw;
+    position: relative
+}
+
+.img2_bebe {
+    width: 23.1vw;
+    height: 34.7vw;
+    object-fit: cover;
+    position: absolute;
+    top: -2.8vw;
+    left: 52.1vw;
+}
+
+.technique_bebe {
+    width: 46.5vw;
+    height: 21.2vw;
+    position: absolute;
+    bottom: 6.25vw;
+    left: 3.5vw
+}
+
+.technique_bebe h3 {
+    font-size: 1.4vw;
+    line-height: 1.4;
+    align-self: flex-start;
+}
+
+.technique_bebe ul {
+    height: 22.2vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    margin-left: 2.4vw;
+}
+
+
+/********* PARTIE 4 **********/
+
+.partie4_bebe {
+    width: 72.9vw;
+    height: 20.1vw;
+}
+
+.partie4_bebe h3 {
+    font-size: 1.4vw;
+    line-height: 1.4;
+}
+
+.partie4_bebe p {
+    font-size: 1.4vw;
+    line-height: 1.4;
+}
+
+/********* PARTIE 5 **********/
+
+.partie5_bebe {
+    width: 72.9vw;
+    height: 17.4vw;
+}
+
+.partie5_bebe h3 {
+    width: 67.4vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    align-self: flex-start;
+}
+
+.partie5_bebe ul {
+    width: 68.75vw;
+    height: 15.6vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    margin-left: 2.4vw;
+}
+
+/********** BOUTON TARIF *********/
+
+.button_tarif {
+    width: 17.2vw;
+    height: 2.4vw;
+    border: 0vw;
+    border-radius: 3.5vw;
+    font-size: 1vw;
+}
+
+}

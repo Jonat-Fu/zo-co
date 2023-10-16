@@ -1,0 +1,475 @@
+/**** Calcule sur une base de 360px ****/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.maternite_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titre_maternite_main h1 {
+    font-size: 8.9vw;
+    font-weight: 400;
+    color: #D39D48;
+    font-family: sans-serif;
+    padding-top: 30vw;
+}
+
+.raccourci_maternite_main {
+    width: 65vw;
+    height: 30vw;
+    font-size: 5.5vw;
+    font-weight: 400;
+    font-family: sans-serif;
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.raccourci_maternite_main a {
+    text-decoration: none;
+    color: black;
+}
+
+/********* ARICLE FEMME ENCEINTE **********/
+
+.article_femme_enceinte {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11.1vw;
+    padding: 10vw 0 15vw 0
+}
+
+/********* PARTIE 1 **********/
+
+.partie1_femme_enceinte {
+    width: 90vw;
+    height: 180vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titre_article_femme_enceinte {
+    width: 80vw;
+    height: 20vw;
+    text-align: center;
+}
+
+.titre_article_femme_enceinte h2:nth-child(1) {
+    font-size: 8.9vw;
+    font-weight: 400;
+    color: #D39D48;
+    font-family: sans-serif;
+}
+
+.titre_article_femme_enceinte h2:nth-child(2) {
+    font-size: 8.3vw;
+    font-weight: 400;
+    color: #D39D48;
+    font-family: sans-serif;
+}
+
+.img1_femme_enceinte {
+    width: 78.3vw;
+    height: auto;
+    box-shadow: 5vw 3.5vw 0 #034B3E;
+}
+
+.quoi_femme_enceinte {
+    width:83.3vw;
+    height: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.quoi_femme_enceinte h3 {
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+}
+
+.quoi_femme_enceinte p {
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+}
+
+/********* PARTIE 2 **********/
+
+.partie2_femme_enceinte {
+    width: 83.3vw;
+    height: 160vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.partie2_femme_enceinte h3 {
+    width: 77vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    align-self: flex-start;
+}
+
+.partie2_femme_enceinte ul {
+    width: 72vw;
+    height: 150vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 6vw;
+}
+
+/********* PARTIE 3 **********/
+
+.partie3_femme_enceinte {
+    background-color: #034B3E;
+    width: 85vw;
+    height: 165vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 18vw;
+    position: relative
+}
+
+.img2_femme_enceinte {
+    width: 56.9vw;
+    height: 85.5vw;
+    object-fit: cover;
+    position: absolute;
+    top: -17vw;
+    left: 4vw;
+
+}
+
+.technique_femme_enceinte {
+    width: 70vw;
+    height: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 6vw
+}
+
+.technique_femme_enceinte h3 {
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    align-self: flex-start;
+}
+
+.technique_femme_enceinte ul {
+    height: 110vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 6vw;
+}
+
+/********* PARTIE 4 **********/
+
+.partie4_femme_enceinte {
+    width:83.3vw;
+    height: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.partie4_femme_enceinte h3 {
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+}
+
+.partie4_femme_enceinte p {
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+}
+
+
+/********* PARTIE 5 **********/
+
+.partie5_femme_enceinte {
+    width: 83.3vw;
+    height: 65vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.partie5_femme_enceinte h3 {
+    width: 77vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    align-self: flex-start;
+}
+
+.partie5_femme_enceinte ul {
+    width: 72vw;
+    height: 120vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 6vw;
+}
+
+/********** BOUTON TARIF *********/
+
+.button_tarif {
+    width: 45.8vw;
+    height: 6.4vw;
+    border: 0vw;
+    background-color: #034B3E;
+    border-radius: 13.9vw;
+    font-size: 2.6vw;
+    font-family: sans-serif;
+    color: #FFFFFF;
+}
+
+/*-----------------------------------------------------------------------------------*/
+
+.hr_maternite {
+    width: 73.6vw;
+    height: 0.07vw;
+    border: solid 0.07vw #034B3E;
+    color: #034B3E
+}
+
+/*-----------------------------------------------------------------------------------*/
+
+/********* ARTICLE BEBE **********/
+
+.article_bebe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11.1vw;
+    padding: 10vw 0 30vw 0
+}
+
+/********* PARTIE 1 **********/
+
+.partie1_bebe {
+    width: 90vw;
+    height: 170vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titre_article_bebe {
+    width: 80vw;
+    height: 20vw;
+    text-align: center;
+}
+
+.titre_article_bebe h2 {
+    font-size: 8.9vw;
+    font-weight: 400;
+    color: #D39D48;
+    font-family: sans-serif;
+}
+
+.img1_bebe {
+    width: 78.3vw;
+    height: auto;
+    box-shadow: 5vw 3.5vw 0 #034B3E;
+}
+
+.quoi_bebe {
+    width:83.3vw;
+    height: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.quoi_bebe h3 {
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+}
+
+.quoi_bebe p {
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+}
+
+/********* PARTIE 2 **********/
+
+.partie2_bebe {
+    width: 83.3vw;
+    height: 105vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.partie2_bebe h3 {
+    width: 77vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    align-self: flex-start;
+}
+
+.partie2_bebe ul {
+    width: 72vw;
+    height: 120vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 6vw;
+}
+
+/********* PARTIE 3 **********/
+
+.partie3_bebe {
+    background-color: #034B3E;
+    width: 85vw;
+    height: 190vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 18vw;
+    position: relative
+}
+
+.img2_bebe {
+    width: 56.9vw;
+    height: 85.5vw;
+    object-fit: cover;
+    position: absolute;
+    top: -17vw;
+    left: 4vw
+}
+
+.technique_bebe {
+    width: 70vw;
+    height: 105vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 7.2vw
+}
+
+.technique_bebe h3 {
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    align-self: flex-start;
+}
+
+.technique_bebe ul {
+    height: 110vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 6vw;
+}
+
+/********* PARTIE 4 **********/
+
+.partie4_bebe {
+    width:83.3vw;
+    height: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.partie4_bebe h3 {
+    font-size: 4.2vw;
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+.partie4_bebe p {
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+}
+
+
+/********* PARTIE 5 **********/
+
+.partie5_bebe {
+    width: 83.3vw;
+    height: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.partie5_bebe h3 {
+    width: 77vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    align-self: flex-start;
+}
+
+.partie5_bebe ul {
+    width: 72vw;
+    height: 120vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 6vw;
+}
+
+/********** BOUTON TARIF *********/
+
+.button_tarif {
+    width: 45.8vw;
+    height: 6.4vw;
+    border: 0vw;
+    background-color: #034B3E;
+    border-radius: 13.9vw;
+    font-size: 2.6vw;
+    font-family: sans-serif;
+    color: #FFFFFF;
+}

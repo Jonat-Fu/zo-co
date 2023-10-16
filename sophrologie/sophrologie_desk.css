@@ -1,0 +1,159 @@
+/**** Calcule sur une base de 1440px ****/
+
+@media (orientation: landscape) {
+
+/********* ARTICLE SOPHROLOGIE **********/
+
+.article_sophrologie {
+    gap: 5.5vw;
+    padding: 6.9vw 0 10.4vw 0
+}
+
+.titre_article_sophrologie {
+    width: 72.5vw;
+    height: 5.5vw;
+}
+
+.titre_article_sophrologie h1 {
+    font-size: 4.9vw;
+}
+
+/********* PARTIE 1 **********/
+
+.partie1_sophrologie {
+    width: 74.3vw;
+    height: 49.6vw;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 22.6vw 27.1vw;
+    gap: 0
+}
+
+.img1_sophrologie {
+    width: auto;
+    height: 34.7vw;
+    box-shadow: 2.1vw 1.4vw 0 #034B3E;
+    grid-row-start: 1;
+    grid-row-end: span2;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    align-self: start;
+}
+
+.quoi_sophrologie {
+    width: 45.1vw;
+    height: 17.4vw;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    margin: auto
+}
+
+.quoi_sophrologie h3 {
+    font-size: 1.4vw;
+    line-height: 1.4;
+}
+
+.quoi_sophrologie p {
+    font-size: 1.4vw;
+    line-height: 1.4;
+}
+
+
+/********* PARTIE 2 **********/
+
+.partie2_sophrologie {
+    width: 45.1vw;
+    height: 26.4vw;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    margin: auto
+}
+
+.partie2_sophrologie h3 {
+    width: 43.3vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    align-self: flex-start;
+}
+
+.partie2_sophrologie ul {
+    width: 45.1vw;
+    height: 24.3vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    margin-left: 2.4vw;
+}
+
+/********* PARTIE 3 **********/
+
+.partie3_sophrologie {
+    width: 81.9vw;
+    height: 31.9vw;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3.5vw;
+    position: relative
+}
+
+.img2_sophrologie {
+    width: 39.2vw;
+    height: auto;
+    position: absolute;
+    top: -2.8vw;
+    left: 44.4vw;
+}
+
+.principe_sophrologie {
+    width: 36.5vw;
+    height: 27.1vw;
+    position: absolute;
+    bottom: 2.4vw;
+    left: 3.5vw
+}
+
+.principe_sophrologie h3 {
+    font-size: 1.4vw;
+    line-height: 1.4;
+    align-self: flex-start;
+}
+
+.principe_sophrologie ul {
+    height: 23.6vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    margin-left: 2.4vw;
+}
+
+
+/********* PARTIE 4 **********/
+
+.partie4_sophrologie {
+    width: 77.1vw;
+    height: 7.6vw;
+}
+
+.partie4_sophrologie h3 {
+    font-size: 1.4vw;
+    line-height: 1.4;
+}
+
+.partie4_sophrologie p {
+    font-size: 1.4vw;
+    line-height: 1.4;
+}
+
+/********** BOUTON TARIF *********/
+
+.button_tarif {
+    width: 17.2vw;
+    height: 2.4vw;
+    border: 0vw;
+    border-radius: 3.5vw;
+    font-size: 1vw;
+}
+
+}

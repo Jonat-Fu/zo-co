@@ -1,0 +1,205 @@
+/**** Calcule sur une base de 360px ****/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.entreprise_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/********* ARTICLE MASSAGE ENTREPRISE **********/
+
+.article_entreprise {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11.1vw;
+    padding: 30vw 0 30vw 0
+}
+
+.titre_article_entreprise {
+    width: 80vw;
+    height: 20vw;
+    text-align: center;
+}
+
+.titre_article_entreprise h1 {
+    font-size: 8.9vw;
+    font-weight: 400;
+    color: #D39D48;
+    font-family: sans-serif;
+}
+
+.titre_article_entreprise h2 {
+    font-size: 8.3vw;
+    font-weight: 400;
+    color: #D39D48;
+    font-family: sans-serif;
+}
+
+/********* PARTIE 1 **********/
+
+.partie1_entreprise {
+    width: 90vw;
+    height: 320vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10vw
+}
+
+.img1_entreprise {
+    width: 56.9vw;
+    height: auto;
+    box-shadow: 5vw 3.5vw 0 #034B3E;
+}
+
+.quoi_entreprise {
+    width:83.3vw;
+    height: 85vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.quoi_entreprise h3 {
+    font-size: 4.2vw;
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+.quoi_entreprise p {
+    font-size: 4.2vw;
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+/********* PARTIE 2 **********/
+
+.partie2_entreprise {
+    width: 83.3vw;
+    height: 140vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.partie2_entreprise h3 {
+    width: 77vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    align-self: flex-start;
+}
+
+.partie2_entreprise ul {
+    width: 72vw;
+    height: 125vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 6vw;
+}
+
+/********* PARTIE 3 **********/
+
+.partie3_entreprise {
+    background-color: #034B3E;
+    width: 85vw;
+    height: 165vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 18vw;
+    position: relative
+}
+
+.img2_entreprise {
+    width: 56.9vw;
+    height: auto;
+    position: absolute;
+    top: -17vw;
+    left: 4vw
+}
+
+.technique_entreprise {
+    width: 70vw;
+    height: 86vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 10.2vw
+}
+
+.technique_entreprise h3 {
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    align-self: flex-start;
+}
+
+.technique_entreprise ul {
+    height: 110vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 6vw;
+}
+
+/********* PARTIE 4 **********/
+
+.partie4_entreprise {
+    width: 83.3vw;
+    height: 75vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.partie4_entreprise h3 {
+    width: 77vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    align-self: flex-start;
+}
+
+.partie4_entreprise ul {
+    width: 72vw;
+    height: 95vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 6vw;
+}
+
+/********** BOUTON TARIF *********/
+
+.button_tarif {
+    width: 45.8vw;
+    height: 6.4vw;
+    border: 0vw;
+    background-color: #034B3E;
+    border-radius: 13.9vw;
+    font-size: 2.6vw;
+    font-family: sans-serif;
+    color: #FFFFFF;
+}

@@ -1,0 +1,762 @@
+/**** Calcule sur une base de 1440px ****/
+
+@media (orientation: landscape) {
+    
+.titre_massage_main h1 {
+    font-size: 4.9vw;
+    padding: 6.9vw 0 0 0
+}
+
+.raccourci_massage_main {
+    width: 83.3vw;
+    height: 34.7vw;
+    font-size: 2.1vw;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hr_massage {
+    width: 80.5vw;
+    height: 0.07vw;
+    border: solid 0.07vw #034B3B;
+    color: #034B3E
+}
+
+/********* ARICLE RELAXANT CALIFORNIEN **********/
+
+.article_relaxant {
+    gap: 5.5vw;
+    padding: 6.9vw 0 10.4vw 0
+}
+
+/********* BANDEROLE RELAXANT **********/
+
+.banderole_relaxant {
+    width: 84vw;
+    height: 26.4vw;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #034B3E;
+    position: relative
+}
+
+.titre_article_relaxant {
+    width: 40.3vw;
+    height: 12.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    right: 3.5vw;
+    bottom: 7.3vw
+}
+
+.titre_article_relaxant h2:nth-child(1) {
+    font-size: 4.9vw;
+    align-self: flex-start;
+}
+
+.titre_article_relaxant h2:nth-child(2) {
+    font-size: 4.9vw;
+    align-self: flex-end;
+}
+
+.img1_relaxant {
+    width: 39.2vw;
+    height: auto;
+    box-shadow: 0px 0px 0 #034B3E;
+    position: absolute;
+    left: -2.1vw;
+    bottom: 2.1vw
+}
+
+/********* PARTIE 1 **********/
+
+.partie1_relaxant {
+    width: 79.9vw;
+    height: 11.1vw;
+}
+
+.partie1_relaxant h3 {
+    font-size: 1.4vw;
+    line-height: 1.4;
+}
+
+.partie1_relaxant p {
+    font-size: 1.4vw;
+    line-height: 1.4;
+}
+
+
+/********* PARTIE 2 **********/
+
+.partie2_relaxant {
+    width: 79.9vw;
+    height: 20.1vw;
+}
+
+.partie2_relaxant h3 {
+    width: 67.4vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    align-self: flex-start;
+}
+
+.partie2_relaxant ul {
+    width: 76.4vw;
+    height: 17.4vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    margin-left: 2.4vw;
+}
+
+/********* PARTIE 3 **********/
+
+.partie3_relaxant {
+    width: 73.6vw;
+    height: 34vw;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3.5vw;
+    position: relative
+}
+
+.img2_relaxant {
+    width: auto;
+    height: 34.7vw;
+    position: absolute;
+    top: -2.8vw;
+    left: 52.8vw;
+}
+
+.technique_relaxant {
+    width: 36.5vw;
+    height: 13.9vw;
+    position: absolute;
+    bottom: 11.1vw;
+    left: 3.5vw
+}
+
+.technique_relaxant h3 {
+    font-size: 1.4vw;
+    line-height: 1.4;
+    align-self: flex-start;
+}
+
+.technique_relaxant ul {
+    height: 11.1vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    margin-left: 2.4vw;
+}
+
+
+/********* PARTIE 4 **********/
+
+.partie4_relaxant {
+    width: 79.9vw;
+    height: 10.4vw;
+}
+
+.partie4_relaxant h3 {
+    font-size: 1.4vw;
+    line-height: 1.4;
+}
+
+.partie4_relaxant p {
+    font-size: 1.4vw;
+    line-height: 1.4;
+}
+
+/********* PARTIE 5 **********/
+
+.partie5_relaxant {
+    width: 79.9vw;
+    height: 9vw;
+}
+
+.partie5_relaxant h3 {
+    width: 67.4vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    align-self: flex-start;
+}
+
+.partie5_relaxant ul {
+    width: 68.75vw;
+    height: 6.9vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    margin-left: 2.4vw;
+}
+
+/********** BOUTON TARIF *********/
+
+.button_tarif {
+    width: 17.2vw;
+    height: 2.4vw;
+    border: 0vw;
+    border-radius: 3.5vw;
+    font-size: 1vw;
+}
+
+/*-----------------------------------------------------------------------------------*/
+
+/********* ARTICLE SPORTIF SUEDOIS **********/
+
+.article_sportif {
+    gap: 4.2vw;
+    padding: 6.9vw 0 10.4vw 0
+}
+
+/********* PARTIE 1 **********/
+
+.partie1_sportif {
+    width: 79.9vw;
+    height: 36.8vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 19.1vw 19.1vw;
+    gap: 0
+}
+
+.titre_article_sportif {
+    width: 36.8vw;
+    height: 11.8vw;
+    text-align: start;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.titre_article_sportif h2:nth-child(1) {
+    font-size: 4.9vw;
+    align-self: flex-start;
+}
+
+.titre_article_sportif h2:nth-child(2) {
+    font-size: 4.9vw;
+    align-self: flex-end;
+}
+
+.img1_sportif {
+    width: auto;
+    height: 34.7vw;
+    box-shadow: 2.1vw 1.4vw 0 #034B3E;
+    grid-row-start: 1;
+    grid-row-end: span2;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    align-self: start;
+}
+
+.quoi_sportif {
+    width: 51.4vw;
+    height: 15.3vw;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    align-self: start;
+}
+
+.quoi_sportif h3 {
+    font-size: 1.4vw;
+    line-height: 1.4;
+}
+
+.quoi_sportif p {
+    font-size: 1.4vw;
+    line-height: 1.4;
+}
+
+
+/********* PARTIE 2 **********/
+
+.partie2_sportif {
+    width: 79.9vw;
+    height: 17.4vw;
+}
+
+.partie2_sportif h3 {
+    width: 43.3vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    align-self: flex-start;
+}
+
+.partie2_sportif ul {
+    width: 78.1vw;
+    height: 14.6vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    margin-left: 2.4vw;
+}
+
+/********* PARTIE 3 **********/
+
+.partie3_sportif {
+    width: 73.6vw;
+    height: 34.2vw;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3.5vw;
+    position: relative
+}
+
+.img2_sportif {
+    width: 23.1vw;
+    height: 34.7vw;
+    object-fit: cover;
+    position: absolute;
+    top: -2.8vw;
+    left: 52.1vw;
+}
+
+.technique_sportif {
+    width: 46.5vw;
+    height: 21.2vw;
+    position: absolute;
+    bottom: 6.25vw;
+    left: 3.5vw
+}
+
+.technique_sportif h3 {
+    font-size: 1.4vw;
+    line-height: 1.4;
+    align-self: flex-start;
+}
+
+.technique_sportif ul {
+    height: 22.2vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    margin-left: 2.4vw;
+}
+
+
+/********* PARTIE 4 **********/
+
+.partie4_sportif {
+    width: 79.9vw;
+    height: 11.8vw;
+}
+
+.partie4_sportif h3 {
+    font-size: 1.4vw;
+    line-height: 1.4;
+}
+
+.partie4_sportif p {
+    font-size: 1.4vw;
+    line-height: 1.4;
+}
+
+/********* PARTIE 5 **********/
+
+.partie5_sportif {
+    width: 79.9vw;
+    height: 9vw;
+}
+
+.partie5_sportif h3 {
+    width: 67.4vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    align-self: flex-start;
+}
+
+.partie5_sportif ul {
+    width: 68.75vw;
+    height: 15.6vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    margin-left: 2.4vw;
+}
+
+/********** BOUTON TARIF *********/
+
+.button_tarif {
+    width: 17.2vw;
+    height: 2.4vw;
+    border: 0vw;
+    border-radius: 3.5vw;
+    font-size: 1vw;
+}
+
+/*-----------------------------------------------------------------------------------*/
+
+/********* ARTICLE REFLEXOLOGIE DOUCE **********/
+
+.article_reflexo {
+    gap: 4.2vw;
+    padding: 6.9vw 0 10.4vw 0
+}
+
+/********* PARTIE 1 **********/
+
+.partie1_reflexo {
+    width: 79.9vw;
+    height: 36.8vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 19.1vw 19.1vw;
+    gap: 0
+}
+
+.titre_article_reflexo {
+    width: 52.5vw;
+    height: 12.5vw;
+    text-align: start;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.titre_article_reflexo h2:nth-child(1) {
+    font-size: 4.9vw;
+}
+
+.titre_article_reflexo h2:nth-child(2) {
+    font-size: 4.5vw;
+}
+
+.img1_reflexo {
+    width: auto;
+    height: 34.7vw;
+    box-shadow: 2.1vw 1.4vw 0 #034B3E;
+    grid-row-start: 1;
+    grid-row-end: span2;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    align-self: start;
+}
+
+.quoi_reflexo {
+    width: 51.4vw;
+    height: 15.3vw;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    align-self: start;
+}
+
+.quoi_reflexo h3 {
+    font-size: 1.4vw;
+    line-height: 1.4;
+}
+
+.quoi_reflexo p {
+    font-size: 1.4vw;
+    line-height: 1.4;
+}
+
+
+/********* PARTIE 2 **********/
+
+.partie2_reflexo {
+    width: 79.9vw;
+    height: 15.3vw;
+}
+
+.partie2_reflexo h3 {
+    width: 43.3vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    align-self: flex-start;
+}
+
+.partie2_reflexo ul {
+    width: 78.1vw;
+    height: 21.9vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    margin-left: 2.4vw;
+}
+
+/********* PARTIE 3 **********/
+
+.partie3_reflexo {
+    width: 73.6vw;
+    height: 34.2vw;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3.5vw;
+    position: relative
+}
+
+.img2_reflexo {
+    width: 23.1vw;
+    height: 34.7vw;
+    object-fit: cover;
+    position: absolute;
+    top: -2.8vw;
+    left: 52.1vw;
+}
+
+.technique_reflexo {
+    width: 46.5vw;
+    height: 12.5vw;
+    position: absolute;
+    bottom: 11.8vw;
+    left: 3.5vw
+}
+
+.technique_reflexo h3 {
+    font-size: 1.4vw;
+    line-height: 1.4;
+    align-self: flex-start;
+}
+
+.technique_reflexo ul {
+    height: 22.2vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    margin-left: 2.4vw;
+}
+
+
+/********* PARTIE 4 **********/
+
+.partie4_reflexo {
+    width: 79.9vw;
+    height: 10.4vw;
+}
+
+.partie4_reflexo h3 {
+    font-size: 1.4vw;
+    line-height: 1.4;
+}
+
+.partie4_reflexo p {
+    font-size: 1.4vw;
+    line-height: 1.4;
+}
+
+/********* PARTIE 5 **********/
+
+.partie5_reflexo {
+    width: 79.9vw;
+    height: 9vw;
+}
+
+.partie5_reflexo h3 {
+    width: 67.4vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    align-self: flex-start;
+}
+
+.partie5_reflexo ul {
+    width: 68.75vw;
+    height: 15.6vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    margin-left: 2.4vw;
+}
+
+/********** BOUTON TARIF *********/
+
+.button_tarif {
+    width: 17.2vw;
+    height: 2.4vw;
+    border: 0vw;
+    border-radius: 3.5vw;
+    font-size: 1vw;
+}
+
+/*-----------------------------------------------------------------------------------*/
+
+/********* ARTICLE LIFTANT DU VISAGE JAPONAIS **********/
+
+.article_liftant {
+    gap: 5.5vw;
+    padding: 6.9vw 0 10.4vw 0
+}
+
+/********* BANDEROLE LIFTANT **********/
+
+.banderole_liftant {
+    width: 84vw;
+    height: 26.4vw;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #034B3E;
+    position: relative
+}
+
+.titre_article_liftant {
+    width: 40.3vw;
+    height: 18.75vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    right: 9vw;
+    bottom: 4.9vw
+}
+
+.titre_article_liftant h2 {
+    font-size: 4.9vw;
+    align-self: flex-end;
+    text-align: end;
+}
+
+.img1_liftant {
+    width: 39.2vw;
+    height: auto;
+    box-shadow: 0px 0px 0 #034B3E;
+    position: absolute;
+    left: -2.1vw;
+    bottom: 2.1vw
+}
+/********* PARTIE 1 **********/
+
+.partie1_liftant {
+    width: 79.9vw;
+    height: 19.4vw;
+}
+
+.partie1_liftant h3 {
+    font-size: 1.4vw;
+    line-height: 1.4;
+}
+
+.partie1_liftant p {
+    font-size: 1.4vw;
+    line-height: 1.4;
+}
+
+
+/********* PARTIE 2 **********/
+
+.partie2_liftant {
+    width: 79.9vw;
+    height: 17.4vw;
+}
+
+.partie2_liftant h3 {
+    width: 67.4vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    align-self: flex-start;
+}
+
+.partie2_liftant ul {
+    width: 75.7vw;
+    height: 16vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    margin-left: 2.4vw;
+}
+
+/********* PARTIE 3 **********/
+
+.partie3_liftant {
+    width: 81.9vw;
+    height: 31.9vw;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3.5vw;
+    position: relative
+}
+
+.img2_liftant {
+    width: 39.2vw;
+    height: auto;
+    position: absolute;
+    top: -2.8vw;
+    left: 44.4vw;
+}
+
+.technique_liftant {
+    width: 36.5vw;
+    height: 23.7vw;
+    position: absolute;
+    bottom: 3.5vw;
+    left: 3.5vw
+}
+
+.technique_liftant h3 {
+    font-size: 1.4vw;
+    line-height: 1.4;
+    align-self: flex-start;
+}
+
+.technique_liftant ul {
+    height: 22.2vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    margin-left: 2.4vw;
+}
+
+
+/********* PARTIE 4 **********/
+
+.partie4_liftant {
+    width: 79.9vw;
+    height: 11.8vw;
+}
+
+.partie4_liftant h3 {
+    font-size: 1.4vw;
+    line-height: 1.4;
+}
+
+.partie4_liftant p {
+    font-size: 1.4vw;
+    line-height: 1.4;
+}
+
+/********* PARTIE 5 **********/
+
+.partie5_liftant {
+    width: 79.9vw;
+    height: 10.4vw;
+}
+
+.partie5_liftant h3 {
+    width: 67.4vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    align-self: flex-start;
+}
+
+.partie5_liftant ul {
+    width: 68.75vw;
+    height: 6.9vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    margin-left: 2.4vw;
+}
+
+/********** BOUTON TARIF *********/
+
+.button_tarif {
+    width: 17.2vw;
+    height: 2.4vw;
+    border: 0vw;
+    border-radius: 3.5vw;
+    font-size: 1vw;
+}
+
+}

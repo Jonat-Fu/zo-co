@@ -1,0 +1,275 @@
+/**** Calcule sur une base de 360px ****/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.tarif_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titre_tarif_main {
+    font-size: 8.9vw;
+    font-weight: 400;
+    color: #D39D48;
+    font-family: sans-serif;
+    padding: 30vw 0 10vw 0;
+}
+
+.hr_tarif {
+    width: 73.6vw;
+    height: 0.07vw;
+    border: solid 0.07vw #D39D48;
+    color: #D39D48;
+}
+
+a {
+    text-decoration: none;
+    color: #034B3E;
+}
+
+/******* MASSAGE TARIF ********/
+
+.massage_tarif {
+    width: 95vw;
+    height: 93.9vw;
+    font-size: 4.2vw;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 10vw;
+}
+
+.titre_massage_tarif {
+    font-size: 7vw;
+    font-weight: 400;
+    color: #D39D48;
+    font-family: sans-serif;
+    padding-bottom: 5vw;
+}
+
+.ligne_massage_tarif {
+    width: 86vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.ligne_massage_tarif li:nth-child(1) {
+    width: 37.2vw;
+}
+
+.ligne_massage_tarif li:nth-child(2) {
+    width: 11.5vw;
+    text-align: center;
+}
+
+.ligne_massage_tarif li:nth-child(3) {
+    width: 11.5vw;
+    text-align: center;
+}
+
+.ligne_massage_tarif li:nth-child(4) {
+    width: 11.5vw;
+    text-align: center;
+}
+
+/******* CURE TARIF *******/
+
+.cure_tarif {
+    width: 95vw;
+    height: 90vw;
+    font-size: 4.2vw;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 10vw;
+}
+
+.cure_tarif p {
+    width: 86vw
+}
+
+.titre_cure_tarif {
+    font-size: 7vw;
+    font-weight: 400;
+    color: #D39D48;
+    font-family: sans-serif;
+    padding-bottom: 5vw;
+}
+
+.ligne_cure_tarif {
+    width: 86vw;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.ligne_cure_tarif div:nth-child(1) {
+    width: 22.5vw;
+    text-align: center;
+    margin-right: 10vw;
+}
+
+.ligne_cure_tarif div:nth-child(2) {
+    width: 22.5vw;
+    text-align: center;
+    margin-right: 10vw;
+
+}
+
+.ligne_cure_tarif div:nth-child(3) {
+    width: 22.5vw;
+    text-align: center;
+}
+
+/******* MATERNITE *******/
+
+.maternite_tarif {
+    width: 95vw;
+    height: 90vw;
+    font-size: 4.2vw;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 10vw;
+}
+
+.maternite_tarif p {
+    width: 86vw
+}
+
+.titre_maternite_tarif {
+    font-size: 7vw;
+    font-weight: 400;
+    color: #D39D48;
+    font-family: sans-serif;
+    padding-bottom: 5vw;
+}
+
+.ligne_maternite_tarif {
+    width: 86vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    list-style: none;
+}
+
+.ligne_maternite_tarif p {
+    width: 76vw
+}
+
+.ligne_maternite_tarif li {
+    width: 25vw;
+    text-align: center;
+}
+
+/***** SOPHROLOGIE *****/
+
+.sophrologie_tarif {
+    width: 95vw;
+    height: 60vw;
+    font-size: 4.2vw;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 10vw;
+}
+
+.titre_sophrologie_tarif {
+    font-size: 7vw;
+    font-weight: 400;
+    color: #D39D48;
+    font-family: sans-serif;
+    padding-bottom: 5vw;
+}
+
+.ligne_sophrologie_tarif {
+    width: 86vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+.ligne_sophrologie_tarif li:nth-child(1) {
+    width: 43vw;
+}
+
+.ligne_sophrologie_tarif li:nth-child(2) {
+    width: 21.5vw;
+    text-align: center;
+}
+
+.ligne_sophrologie_tarif li:nth-child(3) {
+    width: 21.5vw;
+    text-align: center;
+}
+
+/****** MASSAGE ENTREPRISE ******/
+
+.entreprise_tarif {
+    width: 95vw;
+    height: 20vw;
+    font-size: 4.2vw;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 15vw;
+}
+
+.titre_entreprise_tarif {
+    font-size: 7vw;
+    font-weight: 400;
+    color: #D39D48;
+    font-family: sans-serif;
+    padding-bottom: 5vw;
+}
+
+.entreprise_tarif p {
+    width: 86vw
+}
+
+/****** FORMATION / INITIATION ******/
+
+.formation_tarif {
+    width: 95vw;
+    height: 20vw;
+    font-size: 4.2vw;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 30vw;
+}
+
+.titre_formation_tarif {
+    font-size: 7vw;
+    font-weight: 400;
+    color: #D39D48;
+    font-family: sans-serif;
+    padding-bottom: 5vw;
+}
+
+.formation_tarif p {
+    width: 86vw
+}

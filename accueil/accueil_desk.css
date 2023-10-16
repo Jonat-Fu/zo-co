@@ -1,0 +1,597 @@
+/**** Calcule sur une base de 1440px ****/
+
+@media (orientation: landscape) {
+
+/******* SECTION MASSAGE *******/
+
+.massage {
+    width: 52.8vw;
+    height: 45.1vw;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 35.4vw 9.7vw;
+    margin: 5.5vw 0 3.5vw 0
+}
+
+.titre_massage{
+    width: 21.9vw;
+    height: 7.1vw;
+    margin-bottom: -2.1vw;
+    z-index: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    align-self: start;
+}
+
+.titre_massage p {
+    font-size: 5.5vw;
+}
+  
+  @keyframes scroll_massage_p {
+    0% {
+        transform: translateX(-101vw);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.titre_massage h1 {
+    font-size: 7.6vw;
+}
+  
+  @keyframes scroll_massage_h1 {
+    0% {
+        transform: translateX(101vw);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.img_massage {
+    width: 29.2vw;
+    height: 21.2vw;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    margin: 10.4vw 0 0 5.9vw
+}
+
+.text_massage_desk {
+    display: block;
+    width: 15.6vw;
+    height: 25.5vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    grid-row-start: 2;
+    grid-row-end: span 1;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    align-self: end;
+    margin-left: 2.1vw;
+}
+
+.text_massage_desk p {
+    margin: 0.7vw 0;
+}
+
+.text_massage_mob { /* text massage mobile */
+    display: none
+}
+
+.lien_button_massage {
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    align-self: start;
+}
+
+.button_massage {
+    width: 17.2vw;
+    height: 2.4vw;
+    border: 0vw;
+    font-size: 1vw;
+    margin-left: 5.5vw;
+}
+
+/******* SECTION RENATA ********/
+
+.renata { /* section drainage */
+    position: relative;
+    width: 100vw;
+    height: 41.7vw;
+    margin: 6.9vw 0 3.5vw 0
+}
+
+.background_renata { /* div background drainage */
+    width: 100vw;
+    height: 37.3vw;
+    background-image: linear-gradient(to right,#034B3E 96vw,#FFFFFF 96vw );
+}
+
+.grid_renata { /* contenu drainage */
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 35.2vw;
+    display: grid;
+    grid-template-columns: 2fr 6fr;
+    grid-template-rows: 8.3vw 8.3vw 15.1vw 5.5vw;  
+}
+
+.img_renata {
+    width: 17.4vw;
+    height: 32.9vw;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    margin: -3.8vw 0;
+    justify-self: end;
+}
+  
+  @keyframes scroll_renata_img {
+    0% {
+        transform: translateX(-101vw);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.titre_renata_premier {
+    width: 38.2vw;
+    height: 8.3vw;
+    font-size: 2.8vw;
+    grid-row-start: 1;
+    grid-column-start: 2;
+    margin: 4.9vw 0 0 3.5vw;
+}
+
+.titre_renata_deuxieme {
+    width: 38.5vw;
+    height: 8.3vw;
+    font-size: 4.2vw;
+    display: flex;
+    flex-direction: row;
+    gap: 1.7vw;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    justify-self: center;
+    align-items: center;
+}
+
+.span_franca { /* h2 deuxieme titre */
+    align-self: center;
+}
+
+.text_renata_mob {
+    display: none
+}
+
+.text_renata_desk {
+    display: block;
+    width: 47.6vw;
+    height: 15.1vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    color: #D39D48;
+    grid-row-start: 3;
+    grid-column-start: 2;
+    align-self: normal;
+    margin-left: 6.9vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.lien_button_renata {
+    grid-row-start: 4;
+    grid-column-start: 2;
+    align-self: start;
+    justify-self: center;
+    margin: 0 0 0 10.4vw
+}
+
+.button_renata {
+    width: 17.2vw;
+    height: 2.4vw;
+    border: 0vw;
+    border-radius: 3.5vw;
+    font-size: 1vw;
+    background-color: #FFFFFF;
+    color: #034B3E;
+}
+
+/******* SECTION DEEP TISSU *******/
+
+.deep {
+    width: 54.9vw;
+    height: 52.8vw;
+    margin: 6.9vw 0 3.5vw 0
+}
+
+.background_deep {
+    width: 51.7vw;
+    height: 34.4vw;
+}
+
+.titre_deep_verticale {
+    width: 4.5vw;
+    height : 50.2vw;
+    bottom: -7.5vw;
+}
+  
+  @keyframes scroll_deep_titre {
+    0% {
+        transform: translateY(101vh);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.titre_deep {
+    width: 4.5vw;
+    height: 26.8vw;
+    font-size: 4.5vw;
+    letter-spacing: 0.5vw;
+}
+
+.img_deep {
+    width: 51.7vw;
+    right: 2.1vw;
+    bottom: 1.7vw;
+}
+
+  @keyframes scroll_deep_img {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+   }
+
+.text_deep_mob {
+    display: none
+}
+
+.text_deep_desk {
+    width: 43.5vw;
+    height: 13.7vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    justify-content: space-evenly;
+
+}
+
+.lien_button_deep {
+    align-self: flex-end;
+    margin-right: 1.4vw
+}
+
+.button_deep {
+    width: 17.2vw;
+    height: 2.4vw;
+    border: 0vw;
+    border-radius: 3.5vw;
+    font-size: 1vw; 
+}
+
+/****** SECTION ZO-CO C'EST AUSSI ******/
+
+.aussi {
+    width: 80vw;
+    height: 107.6vw;
+    position: relative;
+    margin: 3.5vw 0 3.5vw -15%
+}
+
+.titre_aussi {
+    width: 40.3vw;
+    height: 12.6vw;
+    align-self: flex-start;
+    margin-left: 4.2vw
+}
+
+.span_zoco {
+    font-size: 5.5vw;
+}
+
+@keyframes scroll_span_zoco {
+    0% {
+        transform: translateX(101vw);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.span_aussi {
+    font-size: 4.5vw;
+}
+
+@keyframes scroll_span_aussi {
+    0% {
+        transform: translateX(101vw);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+/****** Formation ******/
+
+.formation {
+    width: 37.5vw;
+    height: 31.6vw;
+    display:grid;
+    grid-template-columns: 6fr 2fr;
+    grid-template-rows: 5.9vw 12.2vw 9vw 3.5vw;
+    align-self: flex-start;
+}
+
+.formation h2 {
+    width: 20.1vw;
+    font-size: 2.4vw;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    align-self: center;
+    margin-left: 2.1vw
+}
+
+.img_formationA {
+    width: 24.2vw;
+    height: 12.2vw;
+    justify-self: end;
+}
+
+@keyframes scroll_img_formation_a {
+    0% {
+        transform: translateX(-101vw);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.img_formationB {
+    width: 8.5vw;
+    height: 19.9vw;
+    margin-top: 3.5vw;
+    justify-self: end;
+}
+
+@keyframes scroll_img_formation_b {
+    0% {
+        transform: translateY(101vw);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.text_formation_mob {
+    display: none
+}
+
+.text_formation_desk {
+    display: block;
+    width: 24.2vw;
+    height: 8vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    color: #D39D48;
+    grid-row-start: 3;
+    grid-column-start: 1;
+    align-self: end;
+    justify-self: end;
+}
+
+.savoir_formation {
+    width: 24.2vw;
+    height: 1.25vw;
+    font-size: 1vw;
+    align-self: end;
+    justify-self: end;
+}
+
+/****** Entreprise *****/
+
+.entreprise {
+    width: 33.7vw;
+    height: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.entreprise h2 {
+    width: 19.6vw;
+    font-size: 2.4vw;
+}
+
+.img_entreprise {
+    width: 31.9vw;
+    height: 11.6vw;
+    align-self: flex-end;
+}
+
+@keyframes scroll_img_massage_entreprise {
+    0% {
+        transform: translateX(101vw);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.text_entreprise {
+    width: 23.5vw;
+    height: 11.8vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    align-self: flex-end;
+    padding-top: 0.8vw;
+}
+
+.savoir_entreprise {
+    width: 23.5vw;
+    height: 1.7vw;
+    font-size: 1vw;
+    align-self: flex-end;
+}
+
+/****** Sophrologie ****/
+
+.sophrologie {
+    width: 32.6vw;
+    height: 34vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-self: flex-end;
+}
+
+.sophrologie h2 {
+    width: 18.3vw;
+    font-size: 2.4vw;
+}
+
+.img_sophrologie {
+    width: 30.7vw;
+    height: 16vw;
+    align-self: flex-end;
+}
+
+@keyframes scroll_img_sophrologie {
+    0% {
+        transform: translateX(101vw);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.text_sophrologie {
+    width: 20.1vw;
+    height: 10.8vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    align-self: flex-end;
+    padding-top: 0.5vw;
+}
+
+.savoir_sophrologie {
+    width: 20.1vw;
+    height: 1.7vw;
+    font-size: 1vw;
+    align-self: flex-end;
+}
+
+.background_aussi {
+    width: 112vw;
+    height: 86.1vw;
+    background-image: linear-gradient(to right,#034B3E 98%,#FFFFFF 98%);
+    position: absolute;
+    bottom: 15.3vw;
+    z-index: -1;
+}
+
+/*** ligne decorative du background aussi ***/
+
+.ligne_aussi_a {
+    display: block;
+    width: 35.7%; /** !!!!! */
+    height: 0.2vw;
+    border: solid 0.2vw #D39D48;
+    background-color: #D39D48;
+    position: absolute;
+    top: 12%;
+    left: 78%
+}
+
+.ligne_aussi_b {
+    display: block;
+    width: 0.2vw;
+    border: solid 0.2vw #D39D48;
+    height: 70%;
+    background-color: #D39D48;
+    position: absolute;
+    top: 12%;
+    left: 113.7%
+}
+
+.ligne_aussi_c {
+    display: block;
+    width: 31.6%;
+    height: 0.2vw;
+    border: solid 0.2vw #D39D48;
+    background-color: #D39D48;
+    position: absolute;
+    bottom: 17.5%;
+    left: 0%
+}
+
+.ligne_aussi_d {
+    display: block;
+    width: 0.2vw;
+    border: solid 0.2vw #D39D48;
+    height: 42%;
+    background-color: #D39D48;
+    position: absolute;
+    bottom: 17.5%;
+    left: 0%
+}
+
+/*******************************************/
+
+/***** SLIDE CONFIANCE *****/
+
+.titre_confiance {
+    width: 44.8vw;
+    font-size: 3.5vw;
+    font-family: sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin: 6.9vw 0 3.5vw 0
+}
+
+.carousel_confiance {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden; /* hidden pour rendre invisible le debordement */
+    width: 73.3vw;
+    margin: 3.5vw 0 10.4vw 0
+}
+
+.slide_confiance:hover {
+    animation-play-state: paused;
+}
+
+.img_confiance {
+    max-width: 13.9vw;
+    max-height: 6.9vw;
+}
+
+.slide_confiance a {
+    width: 24.42vw;
+}
+
+.ikea {
+    display: block
+}
+
+}

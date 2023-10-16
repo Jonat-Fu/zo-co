@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Zo-Co</title>
+        <meta name="description" content="Contactez Zo-Co massage bien être et sophrologie pour plus d'informations">
+        <link rel="stylesheet" href="..\header_footer\header_footer.css"> 
+        <link rel="stylesheet" href="..\contact\contact.css">
+        <link rel="stylesheet" href="..\contact\contact_desk.css">
+        <meta name="Author" content="Jonat-Fu">
+    </head>
+
+<body>
+    
+<header>
+
+    <!---------------------------------- MOBILE ------------------------------------>
+    
+        <div class="nav_mob_fixed">
+            <div  class="nav_mob"> <!-- navigateur mobile -->
+                <a href="..\index.html"><img class="logo_head" src="..\img\logo_zoco\logo_zoco.png" alt="Logo zo-co"></a>
+                <img id="nav_hamburger_id" class="hamburger" type="submit" src="..\img\icon\hamburger.png" alt="Icon menu hamburger">
+            </div>
+            <nav id="nav_id"> <!-- navigateur mobile -->
+                <a href="..\massage\massage.html">MASSAGE</a>
+                <a href="..\drainage_renata\drainage_renata.html">DRAINAGE RENATA FRANCA®</a>
+                <a href="..\deep_tissu\deep_tissue.html">DEEP TISSUE</a>
+                <a href="..\formation_initiation\formation.html">FORMATION / INITIATION</a>
+                <a href="..\maternite\maternite.html">MATERNITE</a>
+                <a href="..\massage_entreprise\entreprise.html">MASSAGE ENTREPRISE</a>
+                <a href="..\sophrologie\sophrologie.html">SOPHROLOGIE</a>
+                <a href="..\tarif\tarif.html">TARIF</a>
+                <a href="..\contact\contact.html">CONTACT</a>
+                <a href="..\a_propos\apropos.html">A PROPOS</a>
+            </nav>
+        </div>
+    
+        <div id="hautDePage_scroll_mob" class="haut_de_page_scroll_mob" >
+            <img class="haut_de_page_scroll_mob_img" src="..\img\icon\fleche_haut.png"> <!-- bouton desktop-->
+        </div>
+    
+    <!------------------------------------ DESKTOP --------------------------------->
+    
+        <div class="header_desk">
+            <a href="..\index.html"><img src="..\img\logo_zoco\logo_zoco.png" alt="Logo zo-co"></a>
+        </div>
+    
+            <nav class="nav_desk"> <!-- navigateur desktop -->
+                <a href="..\sophrologie\sophrologie.html">SOPHROLOGIE</a>
+                <a href="..\drainage_renata\drainage_renata.html">DRAINAGE<br>RENATA FRANCA®</a>
+                <a href="..\deep_tissu\deep_tissue.html">DEEP TISSUE</a>
+                <a href="..\massage\massage.html">MASSAGE</a>
+                <a href="..\tarif\tarif.html">TARIF</a>
+                <a href="..\maternite\maternite.html">MATERNITE</a>
+                <a href="..\massage_entreprise\entreprise.html">MASSAGE<br>ENTREPRISE</a>
+                <a href="..\formation_initiation\formation.html">FORMATION<br>INITIATION</a>
+                <a href="..\contact\contact.html">CONTACT</a>
+                <a href="..\a_propos\apropos.html">A PROPOS</a>
+            </nav>
+    
+        <div id="header_desk_scroll_id" class="header_desk_scroll">
+            <a href="..\index.html"><img src="..\img\logo_zoco\logo_zoco_scroll.png" alt="Logo zo-co"></a>
+            <a href="..\sophrologie\sophrologie.html">SOPHROLOGIE</a>
+            <a href="..\drainage_renata\drainage_renata.html">DRAINAGE<br>RENATA FRANCA®</a>
+            <a href="..\deep_tissu\deep_tissue.html">DEEP TISSUE</a>
+            <a href="..\massage\massage.html">MASSAGE</a>
+            <a href="..\tarif\tarif.html">TARIF</a>
+            <a href="..\maternite\maternite.html">MATERNITE</a>
+            <a href="..\massage_entreprise\entreprise.html">MASSAGE<br>ENTREPRISE</a>
+            <a href="..\formation_initiation\formation.html">FORMATION<br>INITIATION</a>
+            <a href="..\contact\contact.html">CONTACT</a>
+            <a href="..\a_propos\apropos.html">A PROPOS</a>
+        </div>
+    
+        <div id="hautDePage_scroll_desk" class="haut_de_page_scroll_desk" >
+            <img class="haut_de_page_scroll_desk_img" src="..\img\icon\fleche_haut.png"> <!-- bouton desktop-->
+        </div>
+                
+</header>
+
+<main class="contact_main">
+
+    <section class="page_contact"> <!-- section formulaire contact -->
+        <h2>CONTACT</h2>
+
+        <div class="div_num_contact">
+            <img src="..\img\icon\telephone.png" class="icon_num_contact">
+            <p class="num_contact">06 16 91 17 92</p>
+        </div>
+
+        <form class="form_contact" id="form_contact_id" method="POST" action="..\action_php\contact_cible.php" onsubmit="return validateForm()">
+            <input id="nom_id" name="nom" type="text" placeholder="Nom *" required>
+            <p id="error_nom"></p> <!-- message d'erreur validité nom -->
+            
+            <input id="prenom_id" name="prenom" type="text" placeholder="Prénom *" required>
+            <p id="error_prenom"></p> <!-- message d'erreur validité prenom -->
+            
+            <input id="email_id" name="email" type="email" placeholder="E-mail *" required>
+            <p id="error_email"></p> <!-- message d'erreur validité email -->
+            
+            <textarea id="message_id" name="message" placeholder="Message *" required></textarea>
+            <p id="error_message"></p> <!-- message d'erreur validité message -->
+            
+            <button id="bouton_contact_id">ENVOYER</button>
+        </form>
+
+        <div class="condition_contact">
+            <p id="error_checkbox"></p> <!-- message d'erreur condition de validation -->
+            <input id="checkbox_id" type="checkbox">
+            <p>En soumettant ce formulaire, j'accepte que mes données personnelles soient utilisées pour me recontacter. Aucun autre traitement ne sera effectué avec mes informations. Pour connaître et exercer vos droits, veuillez consultez la Politique de confidentialité.</p>
+        </div>
+    </section>
+
+    <section class="plan_contact"> <!-- section maps -->
+        <h2>Situer ZO-CO</h2>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2871.9151621792003!2d4.8542741761930825!3d43.961120571089246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b5f276cab09b75%3A0xfee45104b5f424a8!2szo-co%20sophrologie%20massage%20bien-%C3%AAtre%20drainage%20lymphatique%20Renata%20Franca!5e0!3m2!1sfr!2sfr!4v1691570702622!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+</main>
+
+<footer>
+
+    <div class="footer_mob">
+
+            <bouton id="hautDePage_mob" class="haut_de_page_mob"><img src="..\img\icon\fleche_haut.png"></bouton> <!-- bouton mobile-->
+            <bouton id="hautDePage_desk" class="haut_de_page_desk"><img src="..\img\icon\fleche_haut.png">Haut de page</bouton> <!-- bouton desktop-->
+        
+            <a href="..\index.html" class="logo_foot"><img class="logo_foot" src="..\img\logo_zoco\logo_zoco.png" alt="Logo zo-co"></a>
+        
+        <div class="reseau_sociaux">
+            <p>Suivez-moi</p>
+            <div class="icon_sociaux">
+                <a href="https://www.facebook.com/zoco.lafontjulie" target="blank"><img class="facebook" src="..\img\icon\facebook.png" alt="icon facebook"></a>
+                <a href="https://www.instagram.com/zo_cosophrologieetmassage" target="blank"><img class="instagram" src="..\img\icon\instagram.png" alt="icon instagram"></a>
+                <a href="https://www.linkedin.com/in/julie-frey-masseuse-bien-%C3%AAtre-sophrologue" target="blank"><img class="linkedin" src="..\img\icon\linkedin.png" alt="icon linkedin"></a>
+            </div>
+        </div>
+
+        <div class="contact">
+            <p>CONTACT</p>
+            <ul>
+                <li>1 avenue Charles de Gaulle</li>
+                <li>Centre d'affaires des Lauriers</li>
+                <li>84130 Le Pontet</li>
+                <li>06 16 91 17 92</li>
+                <li>zocobienetre@gmail.com</li>
+            </ul>
+        </div>
+
+        <hr class="hr_foot">
+
+        <div class="mention">
+            <p>Created site by Jonat-Fu</p>
+            <p>Copyright © 2023 Zo-Co | <a href="..\mention\mention.html">Mentions légales</a></p>
+        </div>
+    </div>
+
+</footer>
+
+<script src="..\js\app.js"></script>
+<script src="..\js\formulaire.js"></script>
+
+</body>
+
+</html>

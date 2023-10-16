@@ -1,0 +1,171 @@
+/**** Calcule sur une base de 1440px ****/
+
+@media (orientation: landscape) {
+
+/********* ARICLE DRAINAGE **********/
+
+.article_drainage_renata {
+    gap: 5.5vw;
+    padding: 6.9vw 0 10.4vw 0
+}
+
+.titre_article_drainage {
+    width: 72.5vw;
+    height: 11.1vw;
+}
+
+.titre_article_drainage h1 {
+    font-size: 4.9vw;
+}
+
+.titre_article_drainage h2 {
+    font-size: 4.2vw;
+}
+
+
+/********* PARTIE 1 **********/
+
+.partie1_drainage {
+    width: 75vw;
+    height: 27.8vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img1_drainage {
+    width: 39.2vw;
+    height: auto;
+    box-shadow: 2.1vw 1.4vw 0 #034B3E;
+}
+
+.quoi_drainage {
+    width: 29vw;
+    height: 25vw;
+}
+
+.quoi_drainage h3 {
+    font-size: 1.4vw;
+    line-height: 1.4;
+}
+
+.quoi_drainage p {
+    font-size: 1.4vw;
+    line-height: 1.4;
+}
+
+
+/********* PARTIE 2 **********/
+
+.partie2_drainage {
+    width: 75.7vw;
+    height: 23.6vw;
+}
+
+.partie2_drainage h3 {
+    width: 67.4vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    align-self: flex-start;
+}
+
+.partie2_drainage ul {
+    width: 75.7vw;
+    height: 21.9vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    margin-left: 2.4vw;
+}
+
+/********* PARTIE 3 **********/
+
+.partie3_drainage {
+    width: 81.9vw;
+    height: 31.9vw;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3.5vw;
+    position: relative
+}
+
+.img2_drainage {
+    width: 39.2vw;
+    height: auto;
+    position: absolute;
+    top: -2.8vw;
+    left: 44.4vw;
+}
+
+.technique_drainage {
+    width: 36.5vw;
+    height: 27.1vw;
+    position: absolute;
+    bottom: 2.4vw;
+    left: 3.5vw
+}
+
+.technique_drainage h3 {
+    font-size: 1.4vw;
+    line-height: 1.4;
+    align-self: flex-start;
+}
+
+.technique_drainage ul {
+    height: 23.6vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    margin-left: 2.4vw;
+}
+
+
+/********* PARTIE 4 **********/
+
+.partie4_drainage {
+    width: 77.1vw;
+    height: 10.4vw;
+}
+
+.partie4_drainage h3 {
+    font-size: 1.4vw;
+    line-height: 1.4;
+}
+
+.partie4_drainage p {
+    font-size: 1.4vw;
+    line-height: 1.4;
+}
+
+/********* PARTIE 5 **********/
+
+.partie5_drainage {
+    width: 77.1vw;
+    height: 10.4vw;
+}
+
+.partie5_drainage h3 {
+    width: 67.4vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    align-self: flex-start;
+}
+
+.partie5_drainage ul {
+    width: 68.75vw;
+    height: 6.9vw;
+    font-size: 1.4vw;
+    line-height: 1.4;
+    margin-left: 2.4vw;
+}
+
+/********** BOUTON TARIF *********/
+
+.button_tarif {
+    width: 17.2vw;
+    height: 2.4vw;
+    border: 0vw;
+    border-radius: 3.5vw;
+    font-size: 1vw;
+}
+
+}

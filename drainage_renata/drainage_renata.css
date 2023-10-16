@@ -1,0 +1,227 @@
+/**** Calcule sur une base de 360px ****/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.drainage_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/********* ARICLE DRAINAGE **********/
+
+.article_drainage_renata {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11.1vw;
+    padding: 30vw 0 30vw 0
+}
+
+.titre_article_drainage {
+    width: 80vw;
+    height: 30vw;
+    text-align: center;
+}
+
+.titre_article_drainage h1 {
+    font-size: 8.9vw;
+    font-weight: 400;
+    color: #D39D48;
+    font-family: sans-serif;
+}
+
+.titre_article_drainage h2 {
+    font-size: 8.3vw;
+    font-weight: 400;
+    color: #D39D48;
+    font-family: sans-serif;
+}
+
+/********* PARTIE 1 **********/
+
+.partie1_drainage {
+    width: 90vw;
+    height: 140vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img1_drainage {
+    width: 78.3vw;
+    height: auto;
+    box-shadow: 5vw 3.5vw 0 #034B3E;
+}
+
+.quoi_drainage {
+    width:83.3vw;
+    height: 78vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.quoi_drainage h3 {
+    font-size: 4.2vw;
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+.quoi_drainage p {
+    font-size: 4.2vw;
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+/********* PARTIE 2 **********/
+
+.partie2_drainage {
+    width: 83.3vw;
+    height: 150vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.partie2_drainage h3 {
+    width: 77vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    align-self: flex-start;
+}
+
+.partie2_drainage ul {
+    width: 72vw;
+    height: 135vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 6vw;
+}
+
+/********* PARTIE 3 **********/
+
+.partie3_drainage {
+    background-color: #034B3E;
+    width: 85vw;
+    height: 170vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8.3vw;
+    position: relative
+}
+
+.img2_drainage {
+    width: 74.7vw;
+    height: auto;
+    position: absolute;
+    top: -8.3vw;
+    left: 13vw
+}
+
+.technique_drainage {
+    width: 70vw;
+    height: 120vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 2.2vw
+}
+
+.technique_drainage h3 {
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    align-self: flex-start;
+}
+
+.technique_drainage ul {
+    height: 110vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 6vw;
+}
+
+/********* PARTIE 4 **********/
+
+.partie4_drainage {
+    width:83.3vw;
+    height: 55vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.partie4_drainage h3 {
+    font-size: 4.2vw;
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+.partie4_drainage p {
+    font-size: 4.2vw;
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+
+/********* PARTIE 5 **********/
+
+.partie5_drainage {
+    width: 83.3vw;
+    height: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.partie5_drainage h3 {
+    width: 77vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    align-self: flex-start;
+}
+
+.partie5_drainage ul {
+    width: 72vw;
+    height: 120vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 6vw;
+}
+
+/********** BOUTON TARIF *********/
+
+.button_tarif {
+    width: 45.8vw;
+    height: 6.4vw;
+    border: 0vw;
+    background-color: #034B3E;
+    border-radius: 13.9vw;
+    font-size: 2.6vw;
+    font-family: sans-serif;
+    color: #FFFFFF;
+}

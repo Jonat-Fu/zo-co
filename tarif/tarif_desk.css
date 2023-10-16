@@ -1,0 +1,228 @@
+/**** Calcule sur une base de 1440px ****/
+
+@media (orientation: landscape) {
+
+.tarif_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../img/tarif/tarif_massage_photo_cedric_ferru.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 10.4vw;
+}
+
+.titre_tarif_main {
+    font-size: 4.9vw;
+    padding: 6.9vw 0 4.2vw 0
+}
+
+.grille_tarif {
+    width: 83.3vw;
+    height: 86.7vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 34.7vw 34.7vw 17.3vw;
+}
+
+.hr_tarif {
+    width: 27.5vw;
+    height: 0.07vw;
+    border: solid 0.07vw #D39D48;
+    color: #D39D48;
+}
+
+/******* MASSAGE TARIF ********/
+
+.massage_tarif {
+    width: 34.7vw;
+    height: 34.7vw;
+    font-size: 1.4vw;
+    margin-bottom: 0;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    margin: 0 auto
+}
+
+.titre_massage_tarif {
+    font-size: 2.8vw;
+    padding-bottom: 0.7vw;
+}
+
+.ligne_massage_tarif {
+    width: 33.3vw;
+}
+
+.ligne_massage_tarif li:nth-child(1) {
+    width: 16.7vw;
+}
+
+.ligne_massage_tarif li:nth-child(2) {
+    width: 5.5vw;
+    text-align: center;
+}
+
+.ligne_massage_tarif li:nth-child(3) {
+    width: 5.5vw;
+    text-align: center;
+}
+
+.ligne_massage_tarif li:nth-child(4) {
+    width: 5.5vw;
+    text-align: center;
+}
+
+/******* CURE TARIF *******/
+
+.cure_tarif {
+    width: 34.7vw;
+    height: 31.25vw;
+    font-size: 1.4vw;
+    margin-bottom: 0;
+    grid-row-start: 2;
+    grid-column-start: 1;
+    margin: 0 auto
+}
+
+.cure_tarif p {
+    width: 33.3vw
+}
+
+.titre_cure_tarif {
+    font-size: 2.8vw;
+    padding-bottom: 0.7vw;
+}
+
+.ligne_cure_tarif {
+    width: 33.3vw;
+}
+
+.ligne_cure_tarif div:nth-child(1) {
+    width: 8vw;
+    margin-right: 5.2vw;
+}
+
+.ligne_cure_tarif div:nth-child(2) {
+    width: 8vw;
+   margin-right: 5.2vw;
+
+}
+
+.ligne_cure_tarif div:nth-child(3) {
+    width: 8vw;
+}
+
+/******* MATERNITE *******/
+
+.maternite_tarif {
+    width: 34.7vw;
+    height: 30.5vw;
+    font-size: 1.4vw;
+    margin-bottom: 0;
+    grid-row-start: 1;
+    grid-column-start: 2;
+    margin: 0 auto
+}
+
+.maternite_tarif p {
+    width: 33.3vw
+}
+
+.titre_maternite_tarif {
+    font-size: 2.8vw;
+    padding-bottom: 0.7vw;
+}
+
+.ligne_maternite_tarif {
+    width: 33.3vw
+}
+
+.ligne_maternite_tarif p {
+    width: 26.4vw
+}
+
+.ligne_maternite_tarif li {
+    width: 6.9vw;
+    text-align: center;
+}
+
+/***** SOPHROLOGIE *****/
+
+.sophrologie_tarif {
+    width: 34.7vw;
+    height: 18.75vw;
+    font-size: 1.4vw;
+    margin-bottom: 0;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    margin: 0 auto
+}
+
+.titre_sophrologie_tarif {
+    font-size: 2.8vw;
+    padding-bottom: 0.7vw;
+}
+
+.ligne_sophrologie_tarif {
+    width: 33.3vw;
+}
+
+.ligne_sophrologie_tarif li:nth-child(1) {
+    width: 19.4vw;
+}
+
+.ligne_sophrologie_tarif li:nth-child(2) {
+    width: 6.9vw;
+    text-align: center;
+}
+
+.ligne_sophrologie_tarif li:nth-child(3) {
+    width: 6.9vw;
+    text-align: center;
+}
+
+/****** MASSAGE ENTREPRISE ******/
+
+.entreprise_tarif {
+    width: 34.7vw;
+    height: 10.4vw;
+    font-size: 1.4vw;
+    margin-bottom: 0;
+    grid-row-start: 3;
+    grid-column-start: 1;
+    align-self: start;
+    margin: 0 auto
+}
+
+.titre_entreprise_tarif {
+    font-size: 2.8vw;
+    padding-bottom: 0.7vw;
+}
+
+.entreprise_tarif p {
+    width: 33.3vw
+}
+
+/****** FORMATION / INITIATION ******/
+
+.formation_tarif {
+    width: 34.7vw;
+    height: 10.4vw;
+    font-size: 1.4vw;
+    margin-bottom: 0;
+    grid-row-start: 3;
+    grid-column-start: 2;
+    align-self: start;
+    margin: 0 auto
+}
+
+.titre_formation_tarif {
+    font-size: 2.8vw;
+    padding-bottom: 0.7vw;
+}
+
+.formation_tarif p {
+    width: 33.3vw
+}
+
+}

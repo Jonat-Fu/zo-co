@@ -1,0 +1,148 @@
+/**** Calcule sur une base de 360px ****/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.formation_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/******** ARTICLE FORMATION INITIATION *******/
+
+.article_formation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11.1vw;
+    padding: 30vw 0 30vw 0
+}
+
+.titre_article_formation {
+    width: 80vw;
+    height: 20vw;
+    text-align: center;
+}
+
+.titre_article_formation h1 {
+    font-size: 8.9vw;
+    font-weight: 400;
+    color: #D39D48;
+    font-family: sans-serif;
+}
+
+/******** PARTIE 1 *********/
+
+.partie1_formation {
+    width: 90vw;
+    height: 160vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img1_formation {
+    width: 78.3vw;
+    height: auto;
+    box-shadow: 5vw 3.5vw 0 #034B3E;
+}
+
+.presentation_formation {
+    width:83.3vw;
+    height: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.presentation_formation p {
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+}
+
+/********* PARTIE 2 *********/
+
+.partie2_formation {
+    background-color: #034B3E;
+    width: 85vw;
+    height: 145vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8.3vw;
+    position: relative
+}
+
+.img2_formation {
+    width: 74.7vw;
+    height: auto;
+    position: absolute;
+    top: -8.3vw;
+    left: 13vw
+}
+
+.info_formation {
+    width: 70vw;
+    height: 65vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 10.2vw
+}
+
+.info_formation p {
+    height: 35vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 6vw;
+}
+
+/******* PARTIE 3 *******/
+
+.partie3_formation {
+    width: 83.3vw;
+    height: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.reservez_formation {
+    width:83.3vw;
+    height: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.reservez_formation p {
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+}
+
+/********** BOUTON TARIF *********/
+
+.button_tarif {
+    width: 45.8vw;
+    height: 6.4vw;
+    border: 0vw;
+    background-color: #034B3E;
+    border-radius: 13.9vw;
+    font-size: 2.6vw;
+    font-family: sans-serif;
+    color: #FFFFFF;
+}

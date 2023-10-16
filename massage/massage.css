@@ -1,0 +1,885 @@
+/**** Calcule sur une base de 360px ****/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.massage_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titre_massage_main h1 {
+    font-size: 8.9vw;
+    font-weight: 400;
+    color: #D39D48;
+    font-family: sans-serif;
+    padding: 30vw 0 5vw 0;
+}
+
+.raccourci_massage_main {
+    width: 65vw;
+    height: 95.3vw;
+    font-size: 5.5vw;
+    font-weight: 400;
+    font-family: sans-serif;
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.raccourci_massage_main a {
+    text-decoration: none;
+    color: black;
+}
+
+.hr_massage {
+    width: 73.6vw;
+    height: 0.07vw;
+    border: solid 0.07vw #034B3E;
+    color: #034B3E
+}
+
+/********* ARTICLE RELAXANT CALIFORNIEN **********/
+
+.article_relaxant {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11.1vw;
+    padding: 10vw 0 30vw 0
+}
+
+/********* BANDEROLE RELAXANT **********/
+
+.banderole_relaxant {
+    width: 90vw;
+    height: 85vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titre_article_relaxant {
+    width: 80vw;
+    height: 20vw;
+    text-align: center;
+}
+
+.titre_article_relaxant h2 {
+    font-size: 8.9vw;
+    font-weight: 400;
+    color: #D39D48;
+    font-family: sans-serif;
+}
+
+.img1_relaxant {
+    width: 78.3vw;
+    height: auto;
+    box-shadow: 5vw 3.5vw 0 #034B3E;
+}
+
+/********* PARTIE 1 **********/
+
+.partie1_relaxant {
+    width:83.3vw;
+    height: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.partie1_relaxant h3 {
+    font-size: 4.2vw;
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+.partie1_relaxant p {
+    font-size: 4.2vw;
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+/********* PARTIE 2 **********/
+
+.partie2_relaxant {
+    width: 83.3vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.partie2_relaxant h3 {
+    width: 77vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    align-self: flex-start;
+}
+
+.partie2_relaxant ul {
+    width: 72vw;
+    height: 120vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 6vw;
+}
+
+/********* PARTIE 3 **********/
+
+.partie3_relaxant {
+    background-color: #034B3E;
+    width: 85vw;
+    height: 150vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15.3vw;
+    position: relative
+}
+
+.img2_relaxant {
+    width: 56.9vw;
+    height: auto;
+    position: absolute;
+    top: -17vw;
+    left: 4vw
+}
+
+.technique_relaxant {
+    width: 70vw;
+    height: 68vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 6vw
+}
+
+.technique_relaxant h3 {
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    align-self: flex-start;
+}
+
+.technique_relaxant ul {
+    height: 110vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 6vw;
+}
+
+/********* PARTIE 4 **********/
+
+.partie4_relaxant {
+    width:83.3vw;
+    height: 72vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.partie4_relaxant h3 {
+    font-size: 4.2vw;
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+.partie4_relaxant p {
+    font-size: 4.2vw;
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+
+/********* PARTIE 5 **********/
+
+.partie5_relaxant {
+    width: 83.3vw;
+    height: 45vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.partie5_relaxant h3 {
+    width: 77vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    align-self: flex-start;
+}
+
+.partie5_relaxant ul {
+    width: 72vw;
+    height: 120vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 6vw;
+}
+
+/********** BOUTON TARIF *********/
+
+.button_tarif {
+    width: 45.8vw;
+    height: 6.4vw;
+    border: 0vw;
+    background-color: #034B3E;
+    border-radius: 13.9vw;
+    font-size: 2.6vw;
+    font-family: sans-serif;
+    color: #FFFFFF;
+}
+
+/*-----------------------------------------------------------------------------------*/
+
+/********* ARTICLE SPORTIF SUEDOIS **********/
+
+.article_sportif {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11.1vw;
+    padding: 10vw 0 30vw 0
+}
+
+/********* PARTIE 1 **********/
+
+.partie1_sportif {
+    width: 90vw;
+    height: 200vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titre_article_sportif {
+    width: 80vw;
+    height: 20vw;
+    text-align: center;
+}
+
+.titre_article_sportif h2 {
+    font-size: 8.9vw;
+    font-weight: 400;
+    color: #D39D48;
+    font-family: sans-serif;
+}
+
+.img1_sportif {
+    width: 56.9vw;
+    height: 85.5vw;
+    box-shadow: 5vw 3.5vw 0 #034B3E;
+}
+
+.quoi_sportif {
+    width:83.3vw;
+    height: 74vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.quoi_sportif h3 {
+    font-size: 4.2vw;
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+.quoi_sportif p {
+    font-size: 4.2vw;
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+/********* PARTIE 2 **********/
+
+.partie2_sportif {
+    width: 83.3vw;
+    height: 115vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.partie2_sportif h3 {
+    width: 77vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    align-self: flex-start;
+}
+
+.partie2_sportif ul {
+    width: 72vw;
+    height: 120vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 6vw;
+}
+
+/********* PARTIE 3 **********/
+
+.partie3_sportif {
+    background-color: #034B3E;
+    width: 85vw;
+    height: 140vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 18vw;
+    position: relative
+}
+
+.img2_sportif {
+    width: 74.7vw;
+    height: auto;
+    position: absolute;
+    top: -17vw;
+    left: 4vw
+}
+
+.technique_sportif {
+    width: 70vw;
+    height: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 7.2vw
+}
+
+.technique_sportif h3 {
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    align-self: flex-start;
+}
+
+.technique_sportif ul {
+    height: 110vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 6vw;
+}
+
+/********* PARTIE 4 **********/
+
+.partie4_sportif {
+    width:83.3vw;
+    height: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.partie4_sportif h3 {
+    font-size: 4.2vw;
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+.partie4_sportif p {
+    font-size: 4.2vw;
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+
+/********* PARTIE 5 **********/
+
+.partie5_sportif {
+    width: 83.3vw;
+    height: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.partie5_sportif h3 {
+    width: 77vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    align-self: flex-start;
+}
+
+.partie5_sportif ul {
+    width: 72vw;
+    height: 120vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 6vw;
+}
+
+/********** BOUTON TARIF *********/
+
+.button_tarif {
+    width: 45.8vw;
+    height: 6.4vw;
+    border: 0vw;
+    background-color: #034B3E;
+    border-radius: 13.9vw;
+    font-size: 2.6vw;
+    font-family: sans-serif;
+    color: #FFFFFF;
+}
+
+/*-----------------------------------------------------------------------------------*/
+
+/********* ARTICLE REFLEXOLOGIE DOUCE **********/
+
+.article_reflexo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11.1vw;
+    padding: 10vw 0 30vw 0
+}
+
+/********* PARTIE 1 **********/
+
+.partie1_reflexo {
+    width: 90vw;
+    height: 225vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titre_article_reflexo {
+    width: 80vw;
+    height: 42vw;
+    text-align: center;
+}
+
+.titre_article_reflexo h2 {
+    font-size: 8.9vw;
+    font-weight: 400;
+    color: #D39D48;
+    font-family: sans-serif;
+}
+
+.img1_reflexo {
+    width: 56.9vw;
+    height: 85.5vw;
+    box-shadow: 5vw 3.5vw 0 #034B3E;
+}
+
+.quoi_reflexo {
+    width:83.3vw;
+    height: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.quoi_reflexo h3 {
+    font-size: 4.2vw;
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+.quoi_reflexo p {
+    font-size: 4.2vw;
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+/********* PARTIE 2 **********/
+
+.partie2_reflexo {
+    width: 83.3vw;
+    height: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.partie2_reflexo h3 {
+    width: 77vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    align-self: flex-start;
+}
+
+.partie2_reflexo ul {
+    width: 72vw;
+    height: 120vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 6vw;
+}
+
+/********* PARTIE 3 **********/
+
+.partie3_reflexo {
+    background-color: #034B3E;
+    width: 85vw;
+    height: 160vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 18vw;
+    position: relative
+}
+
+.img2_reflexo {
+    width: 56.9vw;
+    height: 85.5vw;
+    position: absolute;
+    top: -17vw;
+    left: 4vw
+}
+
+.technique_reflexo {
+    width: 70vw;
+    height: 68vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 10.2vw
+}
+
+.technique_reflexo h3 {
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    align-self: flex-start;
+}
+
+.technique_reflexo ul {
+    height: 110vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 6vw;
+}
+
+/********* PARTIE 4 **********/
+
+.partie4_reflexo {
+    width:83.3vw;
+    height: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.partie4_reflexo h3 {
+    font-size: 4.2vw;
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+.partie4_reflexo p {
+    font-size: 4.2vw;
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+
+/********* PARTIE 5 **********/
+
+.partie5_reflexo {
+    width: 83.3vw;
+    height: 45vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.partie5_reflexo h3 {
+    width: 77vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    align-self: flex-start;
+}
+
+.partie5_reflexo ul {
+    width: 72vw;
+    height: 120vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 6vw;
+}
+
+/********** BOUTON TARIF *********/
+
+.button_tarif {
+    width: 45.8vw;
+    height: 6.4vw;
+    border: 0vw;
+    background-color: #034B3E;
+    border-radius: 13.9vw;
+    font-size: 2.6vw;
+    font-family: sans-serif;
+    color: #FFFFFF;
+}
+
+/*-----------------------------------------------------------------------------------*/
+
+/********* ARTICLE LIFTANT DU VISAGE JAPONAIS **********/
+
+.article_liftant {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11.1vw;
+    padding: 10vw 0 30vw 0
+}
+
+/********* BANDEROLE LIFTANT **********/
+
+.banderole_liftant {
+    width: 90vw;
+    height: 85vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titre_article_liftant {
+    width: 90vw;
+    height: 20vw;
+    text-align: center;
+}
+
+.titre_article_liftant h2 {
+    font-size: 8.9vw;
+    font-weight: 400;
+    color: #D39D48;
+    font-family: sans-serif;
+}
+
+.img1_liftant {
+    width: 78.3vw;
+    height: auto;
+    box-shadow: 5vw 3.5vw 0 #034B3E;
+}
+
+/********* PARTIE 1 **********/
+
+.partie1_liftant {
+    width:83.3vw;
+    height: 115vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.partie1_liftant h3 {
+    font-size: 4.2vw;
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+.partie1_liftant p {
+    font-size: 4.2vw;
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+/********* PARTIE 2 **********/
+
+.partie2_liftant {
+    width: 83.3vw;
+    height: 115vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.partie2_liftant h3 {
+    width: 77vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    align-self: flex-start;
+}
+
+.partie2_liftant ul {
+    width: 72vw;
+    height: 102vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 6vw;
+}
+
+/********* PARTIE 3 **********/
+
+.partie3_liftant {
+    background-color: #034B3E;
+    width: 85vw;
+    height: 155vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8.3vw;
+    position: relative
+}
+
+.img2_liftant {
+    width: 74.7vw;
+    height: auto;
+    position: absolute;
+    top: -8.3vw;
+    left: 13vw
+}
+
+.technique_liftant {
+    width: 70vw;
+    height: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 10.2vw
+}
+
+.technique_liftant h3 {
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    align-self: flex-start;
+}
+
+.technique_liftant ul {
+    height: 110vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 6vw;
+}
+
+/********* PARTIE 4 **********/
+
+.partie4_liftant {
+    width:83.3vw;
+    height: 65vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.partie4_liftant h3 {
+    font-size: 4.2vw;
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+.partie4_liftant p {
+    font-size: 4.2vw;
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+
+/********* PARTIE 5 **********/
+
+.partie5_liftant {
+    width: 83.3vw;
+    height: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.partie5_liftant h3 {
+    width: 77vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    align-self: flex-start;
+}
+
+.partie5_liftant ul {
+    width: 72vw;
+    height: 120vw;
+    font-size: 4.2vw;
+    line-height: 1.4;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 6vw;
+}
+
+/********** BOUTON TARIF *********/
+
+.button_tarif {
+    width: 45.8vw;
+    height: 6.4vw;
+    border: 0vw;
+    background-color: #034B3E;
+    border-radius: 13.9vw;
+    font-size: 2.6vw;
+    font-family: sans-serif;
+    color: #FFFFFF;
+}
