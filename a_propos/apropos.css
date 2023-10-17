@@ -65,6 +65,10 @@
     font-family: sans-serif;
 }
 
+.presentation_a_propos a {
+    color: black;
+}
+
 /********* PARTIE 2 *********/
 
 .partie2_a_propos {
@@ -136,6 +140,10 @@
     font-size: 4.2vw;
     line-height: 1.4;
     font-family: sans-serif;
+}
+
+.atelier_a_propos a {
+    color: black;
 }
 
 /******* PARTIE 4 *******/
