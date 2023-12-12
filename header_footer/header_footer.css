@@ -41,7 +41,39 @@
 .logo_head {
     width: 29.2vw;
     height: 16.5vw;
-    margin-left: 8.3vw;
+    margin-left: 5.3vw;
+}
+
+.contact_header_mob {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 18vw;
+    height: 18vw;
+    line-height: 1.4;
+    margin-right: 22vw
+}
+
+.contact_header_mob p {
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: start;
+    width: 38vw;
+    font-family: sans-serif;
+    font-size: 3vw;
+    margin-left: 2vw;
+}
+
+.button_rendez-vous {
+    width: 38vw;
+    height: 4.5vw;
+    border: 1px solid #D39D48;
+    background-color: #034B3E;
+    border-radius: 13.9vw;
+    font-size: 2.8vw;
+    font-family: sans-serif;
+    color: #D39D48;
+    cursor: pointer;
 }
 
 .hamburger {
@@ -239,17 +271,59 @@
 
 .header_desk {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-color: #034B3E;
-    width: 100vw;
-    height: 11.1vw
+    width : 100vw;
+    height: 11.1vw;
+    font-size: 1.2vw;
+    font-family: sans-serif;
 }
 
 .header_desk img {
     width: 16vw;
     height: 9vw;
-    margin: 0
+    margin: 0;
+}
+
+.contact_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 18vw;
+    height: 9vw;
+    line-height: 1.4;
+}
+
+.button_rendez-vous_desk {
+    width: 17.5vw;
+    height: 2.3vw;
+    border: 1px solid #D39D48;
+    background-color: #034B3E;
+    border-radius: 13.9vw;
+    font-size: 1.2vw;
+    font-family: sans-serif;
+    color: #D39D48;
+    cursor: pointer;
+}
+
+.apropos_header {
+    width: 18vw; 
+    padding-left: 5vw;
+    padding-top: 5.1vw
+}
+
+.header_desk a {
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: start;
+}
+
+.header_desk p {
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: start;
+    margin-left: 1vw
 }
 
 .nav_desk {
@@ -270,7 +344,104 @@
     text-align: center;
 }
 
+.nav_desk p {
+    text-decoration: none;
+    font-size: 1.2vw;
+    font-family: sans-serif;
+    color: #D39D48;
+    text-align: center;
+    cursor: pointer;
+}
+
 .nav_desk a:hover {
+    transform:scale(1.1); /* effet de zoom */
+    transition: all 0.1s ease;
+    color: #FFFFFF
+}
+
+/****** MENU LES MASSAGES *********/
+
+#nav_massages_id {
+    position: absolute;
+    top: 15.3vw;
+    left: 53.2vw;
+    width: 18vw;
+    height: 18vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2.8vw;
+    font-size: 1.2vw;
+    font-family: sans-serif;
+    font-weight: 400;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+    background-color:#034B3E;
+    z-index: 100;
+    /*border-top: solid 0.2vw #D39D48;
+    border-bottom: solid 0.2vw #D39D48;*/
+}
+
+#nav_massages_id a {
+    color:#D39D48;
+    text-decoration: none;
+    text-align: start;
+    padding-left: 1.2vw;
+}
+
+#nav_massages_id a:hover {
+    transform:scale(1.1); /* effet de zoom */
+    transition: all 0.1s ease;
+    color: #FFFFFF
+}
+
+#bouton_massages_id:hover {
+    transform:scale(1.1); /* effet de zoom */
+    transition: all 0.1s ease;
+    color: #FFFFFF
+}
+
+/****** MENU AUTRE PRESTATIONS *********/
+
+#nav_prestations_id {
+    position: absolute;
+    top: 15.3vw;
+    right: 2.8vw;
+    width: 18vw;
+    height: 12vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2.8vw;
+    font-size: 1.2vw;
+    font-family: sans-serif;
+    font-weight: 400;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+    background-color:#034B3E;
+    z-index: 100;
+    /*border-top: solid 0.2vw #D39D48;
+    border-bottom: solid 0.2vw #D39D48;*/
+}
+
+#nav_prestations_id a {
+    color:#D39D48;
+    text-decoration: none;
+    text-align: start;
+    padding-left: 1.2vw;
+}
+
+#nav_prestations_id a:hover {
+    transform:scale(1.1); /* effet de zoom */
+    transition: all 0.1s ease;
+    color: #FFFFFF
+}
+
+#bouton_prestations_id:hover {
     transform:scale(1.1); /* effet de zoom */
     transition: all 0.1s ease;
     color: #FFFFFF
@@ -308,9 +479,13 @@
 }
 
 .header_desk_scroll a:hover {
-    transform:scale(1.1); /* effet de zoom */
+    transform:scale(1.1);
     transition: all 0.1s ease;
     color: #D39D48;
+}
+
+.header_desk_scroll a:nth-child(1) {
+    transform: scale(1.0);
 }
 
 .haut_de_page_scroll_desk {

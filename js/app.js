@@ -1,4 +1,4 @@
-/************************** MENU HAMBURGER ************************/
+/************************** MENU HAMBURGER MOBILE ************************/
 
 let navBurger = document.getElementById("nav_hamburger_id");
 let nav = document.getElementById("nav_id");
@@ -27,6 +27,62 @@ document.addEventListener('click', (event) => {
         navBurger.src = '../img/icon/hamburger.png';
         navBurger.alt = 'Fermer';
         navOpen = false;
+    }
+});
+
+
+
+/************************** MENU LES MASSAGES ************************/
+
+let lesMassages = document.getElementById("bouton_massages_id");
+let navLesMassages = document.getElementById("nav_massages_id");
+let navLesMassagesOpen = false;
+
+lesMassages.addEventListener('click', () => {
+    if (navLesMassagesOpen) {
+        navLesMassages.style.maxHeight = "0"; /* en lien avec overflow */  
+        lesMassages.style.transition = "height 0.5s";
+      } else {
+        navLesMassages.style.maxHeight = "18vw"; /* en lien avec overflow */
+        lesMassages.style.transition = "height 0.5s";
+    }
+    navLesMassagesOpen = !navLesMassagesOpen;
+});
+
+// Gestionnaire d'événement de clic sur le document entier pour fermer le menu en dehors du menu
+document.addEventListener('click', (event) => {
+    if (navLesMassagesOpen && !nav.contains(event.target) && event.target !== lesMassages) {
+        navLesMassages.style.maxHeight = "0"; /* en lien avec overflow */
+        lesMassages.style.transition = "height 0.5s";
+        navLesMassagesOpen = false;
+    }
+});
+
+
+
+/************************** MENU AUTRE PRESTATIONS ************************/
+
+let autrePrestations = document.getElementById("bouton_prestations_id");
+let navAutrePrestations = document.getElementById("nav_prestations_id");
+let navAutrePrestationsOpen = false;
+
+autrePrestations.addEventListener('click', () => {
+    if (navAutrePrestationsOpen) {
+        navAutrePrestations.style.maxHeight = "0"; /* en lien avec overflow */  
+        autrePrestations.style.transition = "height 0.5s";
+      } else {
+        navAutrePrestations.style.maxHeight = "12vw"; /* en lien avec overflow */
+        autrePrestations.style.transition = "height 0.5s";
+    }
+    navAutrePrestationsOpen = !navAutrePrestationsOpen;
+});
+
+// Gestionnaire d'événement de clic sur le document entier pour fermer le menu en dehors du menu
+document.addEventListener('click', (event) => {
+    if (navAutrePrestationsOpen && !nav.contains(event.target) && event.target !== autrePrestations) {
+        navAutrePrestations.style.maxHeight = "0"; /* en lien avec overflow */
+        autrePrestations.style.transition = "height 0.5s";
+        navAutrePrestationsOpen = false;
     }
 });
 
